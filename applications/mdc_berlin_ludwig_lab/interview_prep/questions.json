@@ -1,0 +1,73 @@
+{
+    "Biology & Domain": [
+        {
+            "Question": "The Lab focuses heavily on mtscATAC-seq. Can you explain the central idea behind tracking mitochondrial mutations?",
+            "Key Points": [
+                "- Measuring both chromatin accessibility and mtDNA mutations in the same single cell.",
+                "- mtDNA mutations act as a barcode.",
+                "- Because mutations are passed down during division, they allow for clonal lineage tracing.",
+                "- We can see the family tree of a cell AND its functional state simultaneously."
+            ]
+        },
+        {
+            "Question": "What does DOGMA-seq allow us to analyze that standard single-cell RNA-seq does not?",
+            "Key Points": [
+                "- Standard scRNA-seq only looks at gene expression (RNA).",
+                "- DOGMA-seq captures the entire 'central dogma' at once.",
+                "- It measures Chromatin accessibility (DNA), Gene expression (RNA), and Surface proteins.",
+                "- Allows researchers to connect epigenetic changes directly to protein outcomes in the exact same cell."
+            ]
+        }
+    ],
+    "Pipeline Engineering (Nextflow)": [
+        {
+            "Question": "You mentioned building a viral pipeline with Nextflow DSL2. How do Channels and Processes differ in Nextflow?",
+            "Key Points": [
+                "- Processes are the actual computing units (running minimap, mafft, etc.).",
+                "- Channels are the conduits that pass data between processes.",
+                "- Channels enable parallel / asynchronous execution.",
+                "- DSL2 separates the process logic from the workflow logic for better modularity."
+            ]
+        },
+        {
+            "Question": "We often deal with massive, messy datasets. Can you tell us about a time you refactored a complex data pipeline?",
+            "Key Points": [
+                "- Mention the HealthTwiSt DeGIR pipeline (143K records, 1920 variables).",
+                "- Replaced 257 hardcoded rules with 8 clean config files.",
+                "- Emphasize achieving 26.5% code reduction.",
+                "- Critical point: Mention using identical() to ensure byte-level output verification after every step of the refactoring."
+            ]
+        }
+    ],
+    "Machine Learning & R": [
+        {
+            "Question": "Our sc-multi-omics data is highly sparse. How might you approach integrating RNA-seq and ATAC-seq data from the same cells?",
+            "Key Points": [
+                "- Standard parametric stats don't work well due to sparsity and high dimensionality (thousands of genes).",
+                "- Need dimensionality reduction first (PCA, UMAP).",
+                "- Frame it as an ML integration problem, possibly using neural networks or autoencoders to learn a shared latent space.",
+                "- Mention comfort with building these models using scikit-learn or Tidymodels."
+            ]
+        },
+        {
+            "Question": "You helped migrate a course from caret to Tidymodels. What are the key advantages of the Tidymodels framework?",
+            "Key Points": [
+                "- It follows the tidyverse philosophy (clean, readable pipes).",
+                "- 'recipes' package handles data splitting and robust preprocessing (prevents data leakage).",
+                "- 'parsnip' package unifies the interface to ML algorithms so you don't have to learn a different syntax for random forest vs xgboost.",
+                "- 'workflows' bundles preprocessing and modeling together safely."
+            ]
+        }
+    ],
+    "Career Narrative & Defence": [
+        {
+            "Question": "You have a PhD in Astrochemistry. Why the shift to stem cell biology and single-cell genomics?",
+            "Key Points": [
+                "- Frame Astrochemistry as processing massive, noisy, experimental sensor datasets (terabytes of data).",
+                "- The core computational problems (handling scale, removing noise, statistical modeling) are identical.",
+                "- Took an intensive Weiterbildung (CQ) to bridge the domain gap (Bioinformatics, NGS, R).",
+                "- Highlight natural inclination to computational tools and building pipelines, which the lab desperately needs."
+            ]
+        }
+    ]
+}
