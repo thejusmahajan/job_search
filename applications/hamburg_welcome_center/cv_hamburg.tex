@@ -1,0 +1,202 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[left=1.5cm,right=1.5cm,top=5.5cm,bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato} % Trying Lato, fallback to helvet if missing
+\usepackage{fontawesome5}
+\usepackage{paracol}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{eso-pic}
+\usepackage{enumitem}
+
+\IfFileExists{lato.sty}{}
+    {\usepackage{helvet}\renewcommand{\familydefault}{\sfdefault}}
+
+% Define Colors
+\definecolor{maincol}{HTML}{008080} % Teal
+\definecolor{textcol}{HTML}{333333} % Dark Grey
+\definecolor{lighttextcol}{HTML}{555555} % Light Grey
+\definecolor{white}{HTML}{FFFFFF}
+
+\pagestyle{empty}
+
+% Background Header
+\newcommand{\drawheader}{
+    \begin{tikzpicture}[remember picture,overlay]
+        % Teal Background Block
+        \node [rectangle, fill=maincol, anchor=north, minimum width=\paperwidth, minimum height=5cm] (box) at (current page.north){};
+        
+        % Name and Title
+        \node [anchor=center, text=white, align=center] (name) at (box.center) {
+            {\Huge \bfseries \MakeUppercase{Thejus Mahajan Ph. D.}}\\[0.3cm]
+            {\Large Bioinformatics \& Data Scientist}
+        };
+        
+        % Contact Details Line
+        \node [anchor=north, text=white] at ([yshift=-0.7cm]name.south) {
+            \faPhone \ +49-15259697629 \quad \textbullet \quad 
+            \faEnvelope \ thejus.mahajan@uni-hamburg.de \quad \textbullet \quad 
+            \faGlobe \ thejusmahajan.github.io \quad \textbullet \quad 
+            \faMapMarker* \ Hamburg, Germany
+        };
+        
+        % Circular Photo Placeholder
+        \node [circle, draw=white, line width=1mm, fill=white, inner sep=0pt, minimum size=3.5cm] (photo) at ([xshift=-4cm]box.east) {
+             \Huge \textcolor{lightgray}{\faUser}
+        };
+    \end{tikzpicture}
+}
+
+\newcommand{\sectiontitle}[1]{
+    \vspace{0.3cm}
+    {\large \bfseries \color{maincol} \MakeUppercase{#1}}
+    \vspace{0.1cm}
+    {\color{maincol} \hrule height 1.5pt}
+    \vspace{0.2cm}
+}
+
+\newcommand{\jobitem}[4]{
+    \noindent
+    \textbf{#1} \hfill {\footnotesize \faCalendar* \ #4} \\
+    {\color{lighttextcol} \textit{#2}, #3}
+    \vspace{0.1cm}
+}
+
+% Dots for skills
+\newcommand{\grade}[1]{%
+    \begin{tikzpicture}
+    \foreach \i in {1,2,3,4,5} {
+        \ifnum \i > #1 
+            \fill[lightgray] (\i*0.4,0) circle (3pt);
+        \else 
+            \fill[maincol] (\i*0.4,0) circle (3pt);
+        \fi
+    }
+    \end{tikzpicture}
+}
+
+\begin{document}
+
+\AddToShipoutPictureBG*{\drawheader}
+
+\columnratio{0.65}
+\setlength{\columnsep}{1cm}
+\begin{paracol}{2}
+% Adjust margins for columns via paracol or simple vspace
+
+% Left Column
+\switchcolumn[0] 
+    
+    \sectiontitle{Career Interests}
+    \noindent
+    Computational Scientist (PhD) with 5+ years of experience in Biological Systems Modeling and High-Dimensional Data Analysis. Experienced during post-doc in applying stochastic population models in hindcast and forecast projections. Trained in Python and R pipelines for noisy data analysis. Seeking for a career shift to Bioinformatics. I am leveraging on my recent Bioinformatics and Biostatistics training along with the advanced mathematical modeling expertise gained during the Ph. D. and post-doc period to solve problems in human metabolic networks and clinical data analysis.
+    
+    \sectiontitle{Experience}
+    
+    \jobitem{Further Training -- Bioinformatics}{CQ Beratung + Bildung}{Berlin}{08/2025 -- Present}
+    \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt,label=\textcolor{maincol}{\tiny\faCircle}]
+        \item Introduction to programming and Python, including Shell (BASH), programming methodology, and object-oriented programming in Python.
+        \item Bioinformatics and databases, including NCBI, Biopython, web services, and database management with SQL.
+        \item Applied bioinformatics, including sequence analysis and strategies, structural bioinformatics, software for structure visualization, and NGS analysis using Nextflow and Galaxy.
+        \item Applied biostatistics, including statistical analysis using R, descriptive and multivariate statistics, ANOVA, PCA, HCA, workflows using R/Bioconductor, and Markov chain implementation.
+    \end{itemize}
+    
+    \jobitem{Internship -- Machine Learning in R}{HealthTwiSt GmbH}{Berlin}{02/2026 -- 04/2026}
+    \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt,label=\textcolor{maincol}{\tiny\faCircle}]
+        \item Implementation of Machine Learning workflows using the Tidymodels framework in R.
+        \item Supervised by Dr. Andreas Busjahn.
+        \item Practical application of bioinformatics and biostatistical analysis skills.
+    \end{itemize}
+    
+    \jobitem{Guest Scientist}{Helmholtz-Zentrum Hereon}{Geesthacht}{05/2025 -- 10/2025}
+    \textbf{Computational Biologist \& Systems Modeler}
+    \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt,label=\textcolor{maincol}{\tiny\faCircle}]
+        \item Spearheaded a complex research project modeling evolutionary processes in marine environments, in collaboration with the Ecosystem Modeling Department.
+        \item Applied advanced computational techniques to simulate the long-term impacts of environmental changes on marine ecosystems.
+    \end{itemize}
+    
+    \jobitem{Post-doctoral Scientist}{University of Hamburg}{Hamburg}{08/2021 -- 01/2025}
+    \textbf{Marine Ecosystem Modelling}
+    \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt,label=\textcolor{maincol}{\tiny\faCircle}]
+        \item Model development: Developed the novel ``Cyanobacteria Life Cycle'' (CLC) model within the ERGOM framework to project future climate warming scenarios.
+        \item High-performance computing: Engineered models in Fortran and analyzed large NetCDF datasets using Python in a Linux environment.
+        \item Statistical analysis and visualization of ecological time-series data using R.
+    \end{itemize}
+    
+    \jobitem{Ph.D. Researcher Astrochemistry}{Univ. Paris-Saclay}{France}{10/2015 -- 09/2018}
+    \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt,label=\textcolor{maincol}{\tiny\faCircle}]
+        \item Big Data Analysis: Acquired and processed terabytes of raw data from tandem particle accelerator experiments.
+        \item Algorithm Development: Utilized C++ for noise cancellation, signal smoothing.
+        \item Simulation: Developed a molecular fragmentation model for the KIDA database.
+    \end{itemize}
+    
+    \sectiontitle{Education}
+    \textbf{Ph.D. in Astrochemistry} \hfill 2015 -- 2018 \\
+    Universit\'e Paris-Saclay, France
+    
+    \vspace{0.2cm}
+    \textbf{M.Sc. in Physics} \hfill 2012 -- 2015 \\
+    National Institute of Technology Calicut, India \\
+    CGPA: 8.2/10
+
+
+% Right Column
+\switchcolumn[1] 
+    
+    \sectiontitle{Strengths}
+    
+    \textbf{Advanced Scientific Modelling} \\
+    Developed and implemented a novel biogeochemical model (CLC) within the GOTM-FABM framework.
+    
+    \vspace{0.2cm}
+    \textbf{Complex Problem-Solving} \\
+    Resolved a critical data-loss error by creating a Fortran simulation to correct for a misplaced particle detector.
+    
+    \vspace{0.2cm}
+    \textbf{Bioinformatics} \\
+    Successfully bridged physical science expertise with modern biological workflows. 
+    
+    \sectiontitle{Skills}
+    \textbf{Python} \hfill \grade{5} \\
+    \textbf{R (Tidymodels)} \hfill \grade{4} \\
+    \textbf{Nextflow} \hfill \grade{3} \\
+    \textbf{SQL} \hfill \grade{3} \\
+    \textbf{Fortran} \hfill \grade{5} \\
+    \textbf{LaTeX} \hfill \grade{5}
+    
+    \sectiontitle{Languages}
+    \textbf{English} \hfill \grade{5} \\
+    \textbf{German (B1)} \hfill \grade{3} \\
+    \textbf{French} \hfill \grade{3} \\
+    \textbf{Malayalam} \hfill \grade{5} \\
+    \textbf{Tamil} \hfill \grade{4}
+    
+    \sectiontitle{Referees}
+    {\small
+    \textbf{Dr. Andreas Busjahn} \\
+    HealthTwiSt GmbH \\
+    \faEnvelope \ andreas@busjahn.net
+    
+    \vspace{0.2cm}
+    \textbf{Prof. Dr. Kai Wirtz} \\
+    Helmholtz-Zentrum Hereon \\
+    \faEnvelope \ kai.wirtz@hereon.de
+    }
+
+    \vspace{2cm}
+    % Signature Block with space
+    \noindent
+    Hamburg, den 05.02.2026
+    
+    \vspace{1.5cm}
+    \noindent
+    \rule{0.8\linewidth}{0.5pt} \\
+    (Signature) \\
+    Thejus Mahajan
+
+\end{paracol}
+
+\end{document}

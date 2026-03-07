@@ -1,0 +1,381 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  5 FEB 2026 20:30
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**motivation_letter.tex
+(./motivation_letter.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-16>
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlttr2.cls
+Document Class: scrlttr2 2022/10/12 v3.38 KOMA-Script document class (letter)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2022/10/12 v3.38 KOMA-Script package (file load hooks)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2022/10/12 v3.38 KOMA-Script package (using LaTeX hooks)
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2022/10/12 v3.38 KOMA-Script package (logo)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+))
+Class scrlttr2 Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 1990.
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2022/10/12 v3.38 KOMA-Script font size class option (12pt
+)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2022/10/12 v3.38 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count185
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1767.
+)
+\c@letter=\count186
+)
+Class scrlttr2 Info: Letter-Class-Option `DIN' loaded on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/DIN.lco
+File: DIN.lco 2022/10/12 v3.38 KOMA-Script letter-class-option
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/12/26 3.84 The Babel package
+\babel@savecnt=\count187
+\U@D=\dimen140
+\l@unhyphenated=\language42
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count188
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language33). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language33). Reported on input line 108.
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count189
+\Gm@cntv=\count190
+\c@Gm@tempcnt=\count191
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks19
+)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 20
+.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count192
+\l__pdf_internal_box=\box51
+)
+(./motivation_letter.aux)
+\openout1 = `motivation_letter.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+Package scrbase Info: activating english \yourrefname on input line 20.
+Package scrbase Info: activating english \yourmailname on input line 20.
+Package scrbase Info: activating english \myrefname on input line 20.
+Package scrbase Info: activating english \customername on input line 20.
+Package scrbase Info: activating english \invoicename on input line 20.
+Package scrbase Info: activating english \subjectname on input line 20.
+Package scrbase Info: activating english \ccname on input line 20.
+Package scrbase Info: activating english \enclname on input line 20.
+Package scrbase Info: activating english \headtoname on input line 20.
+Package scrbase Info: activating english \headfromname on input line 20.
+Package scrbase Info: activating english \datename on input line 20.
+Package scrbase Info: activating english \pagename on input line 20.
+Package scrbase Info: activating english \phonename on input line 20.
+Package scrbase Info: activating english \mobilephonename on input line 20.
+Package scrbase Info: activating english \faxname on input line 20.
+Package scrbase Info: activating english \emailname on input line 20.
+Package scrbase Info: activating english \wwwname on input line 20.
+Package scrbase Info: activating english \bankname on input line 20.
+Class scrlttr2 Info: no date found for language `american'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `australian'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `british'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `canadian'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `newzealand'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `UKenglish'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `ukenglish'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `USenglish'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `usenglish'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `german'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `ngerman'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `austrian'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `naustrian'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `swissgerman'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `nswissgerman'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `acadian'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `canadien'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `francais'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `french'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `italian'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `spanish'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `croatian'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `dutch'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `finnish'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `norsk'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `swedish'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `polish'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `czech'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: no date found for language `slovak'
+(scrlttr2)           --> skipped on input line 20.
+Class scrlttr2 Info: trying to activate captions and date
+(scrlttr2)           of language `english' on input line 20.
+Class scrlttr2 Info: used language is `english'.
+(scrlttr2)           Supported languages are: `english', `UKenglish',
+(scrlttr2)           `ukenglish', `british', `american', `USenglish',
+(scrlttr2)           `usenglish', `australian`,`canadian', `newzealand',
+(scrlttr2)           `german', `ngerman', `austrian', `naustrian',
+(scrlttr2)           `swissgerman', `nswissgermsn',
+(scrlttr2)           `acadian', `canadien', `francais', `french', 
+(scrlttr2)           `dutch', `italian', `spanish', `polish',
+(scrlttr2)           `croatian', `finnish', `norsk', `swedish',
+(scrlttr2)           `czech', `slovak' on input line 20.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.6271pt, 418.25372pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.53027pt, 152.11002pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=418.25372pt
+* \textheight=591.53027pt
+* \oddsidemargin=17.35712pt
+* \evensidemargin=17.35712pt
+* \topmargin=-10.73834pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=49.79233pt
+* \marginparsep=12.8401pt
+* \columnsep=0.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Foldmarks: yes
+Head of first page
+Foot of first page
+Address (backaddress, addressee)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+4.
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+4.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+24.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+24.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 24.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 24.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 24.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
+4.
+
+(/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Location field: empty
+Title: no
+Subject: before opening
+[1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(./motivation_letter.aux) ) 
+Here is how much of TeX's memory you used:
+ 4030 strings out of 477290
+ 73699 string characters out of 5818809
+ 1856330 words of memory out of 5000000
+ 24206 multiletter control sequences out of 15000+600000
+ 536134 words of font info for 48 fonts, out of 8000000 for 9000
+ 417 hyphenation exceptions out of 8191
+ 108i,10n,106p,579b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr
+/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb>
+Output written on motivation_letter.pdf (2 pages, 86095 bytes).
+PDF statistics:
+ 27 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
