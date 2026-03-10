@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  9 MAR 2026 10:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  10 MAR 2026 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cv_mdc.tex
-(./cv_mdc.tex
+**cv_erlangen.tex
+(./cv_erlangen.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16> (./thejus_cv.cls
 Document Class: thejus_cv 2026/03/06 Custom CV Class
@@ -639,8 +639,9 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
 (Font)              `T1/Roboto-LF/regular/n' on input line 4.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 9.0pt on input line 4.
- (./cv_mdc.aux)
-\openout1 = `cv_mdc.aux'.
+
+(./cv_erlangen.aux)
+\openout1 = `cv_erlangen.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -721,9 +722,9 @@ e
 \c@mv@boldtabular=\count316
 Package hyperref Info: Link coloring OFF on input line 4.
 
-(./cv_mdc.out) (./cv_mdc.out)
+(./cv_erlangen.out) (./cv_erlangen.out)
 \@outlinefile=\write4
-\openout4 = `cv_mdc.out'.
+\openout4 = `cv_erlangen.out'.
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
 (Font)              `T1/Roboto-LF/regular/n' on input line 12.
@@ -824,6 +825,12 @@ o-cesses in ma-rine ecosys-
  []
 
 
+Overfull \hbox (6.13171pt too wide) in paragraph at lines 83--83
+[]\T1/Roboto-LF/regular/n/9 Model De-vel-op-ment: De-vel-oped the novel ``Cyano
+bac-te-ria Life Cy-cle'' (CLC)
+ []
+
+
 Overfull \hbox (0.54956pt too wide) in paragraph at lines 95--96
 []\T1/Roboto-LF/regular/n/9 Prepared physics con-tent for com-pet-i-tive ex-am-
 i-na-tions and coached state-
@@ -855,6 +862,11 @@ Underfull \hbox (badness 1642) in paragraph at lines 152--152
 
 Overfull \hbox (2.27165pt too wide) in paragraph at lines 152--152
 [][] 
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 156--156
+\T1/Roboto-LF/regular/n/8 mul-ti-di-men-sional ar-ray op-er-a-tions, JAX/GPU
  []
 
 
@@ -903,23 +915,36 @@ g, Conda-
  []
 
 
-Overfull \hbox (6.05383pt too wide) in paragraph at lines 199--199
+Overfull \hbox (3.88084pt too wide) in paragraph at lines 194--194
+[]\T1/Roboto-LF/bold/n/9 JAX/TPU High-Performance Sim-u-la-tor \TS1/Roboto-LF/r
+egular/n/9 ˆ []\U/fontawesomebrands0/regular/n/9 § \T1/Roboto-LF/regular/n/9 Gi
+tHub[] 
+ []
+
+
+Overfull \hbox (4.47894pt too wide) in paragraph at lines 195--195
+\T1/Roboto-LF/regular/n/8 chi-tec-ture us-ing Google JAX. En-gi-neered branch-l
+ess, vec-
+ []
+
+
+Overfull \hbox (6.05383pt too wide) in paragraph at lines 203--203
 \T1/Roboto-LF/regular/n/8 plant-ing data in Berlin us-ing Python, Pan-das, and 
 Seaborn. 
  []
 
-[2] (./cv_mdc.aux)
-Package rerunfilecheck Info: File `cv_mdc.out' has not changed.
+[2] (./cv_erlangen.aux)
+Package rerunfilecheck Info: File `cv_erlangen.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  25252 strings out of 477290
- 496012 string characters out of 5818809
- 1893330 words of memory out of 5000000
+ 496097 string characters out of 5818809
+ 1894330 words of memory out of 5000000
  45022 multiletter control sequences out of 15000+600000
  570827 words of font info for 74 fonts, out of 8000000 for 9000
  417 hyphenation exceptions out of 8191
- 99i,12n,94p,748b,813s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,94p,753b,813s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}{/us
 r/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texm
 f-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{/usr/share/texlive/texmf-dist/fo
@@ -934,10 +959,10 @@ ype1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/g
 oogle/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900
 .pfb>
-Output written on cv_mdc.pdf (2 pages, 174337 bytes).
+Output written on cv_erlangen.pdf (2 pages, 175072 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,6 +2,43 @@
 
 Dated record of all job applications. Updated after each session (Principle 21).
 
+## Robert Bosch Hospital — Institute of Clinical Pharmacology
+
+| | |
+|---|---|
+| **Date** | 10 March 2026 |
+| **Status** | Draft prepared |
+| **Contact** | Prof. Dr. Matthias Schwab / Dr. Elke Schaeffeler |
+| **Position** | Post Doctoral Research Scientist - Bioinformatics (m/f/d) |
+| **Documents** | `applications/robert_bosch_hospital/` |
+| **Notes** | Focus on spatial transcriptomics, single-cell RNA-seq, and multi-omics data integration for renal cell carcinoma. |
+
+---
+
+## Helmholtz Munich — Institute of Computational Biology
+
+| | |
+|---|---|
+| **Date** | 10 March 2026 |
+| **Status** | Draft prepared |
+| **Contact** | Anna Sacher (+498931872926) |
+| **Position** | Staff Scientist (f/m/x) in Computational Biology (Job ID: 102868) |
+| **Documents** | `applications/helmholtz_munich_staff_scientist/` |
+| **Notes** | Focus on mentoring, reproducible workflows, and scientific computing (JAX/PyTorch). |
+
+---
+
+## Universitätsklinikum Erlangen — Department of Stem Cell Biology
+
+| | |
+|---|---|
+| **Date** | 10 March 2026 |
+| **Status** | Draft prepared |
+| **Contact** | Dr. Pooja Gupta (pooja.gupta@uk-erlangen.de) |
+| **Position** | Postdoctoral Researcher – AI-based Multi-Omics in Computational Biomedicine |
+| **Documents** | `applications/erlangen_stem_cell_biology/` |
+| **Notes** | BMFTR-funded project "AI-Driven Multi-Omics Integration for Predicting IBD-PD Comorbidity Progression". Lab linked to CRC/TRR369 (DIONE). |
+
 ---
 
 ## MDC Berlin — Ludwig Lab (Stem Cell Dynamics & Mitochondrial Genomics)

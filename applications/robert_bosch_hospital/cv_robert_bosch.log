@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  9 MAR 2026 10:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  10 MAR 2026 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cv_mdc.tex
-(./cv_mdc.tex
+**cv_robert_bosch.tex
+(./cv_robert_bosch.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16> (./thejus_cv.cls
 Document Class: thejus_cv 2026/03/06 Custom CV Class
@@ -639,8 +639,9 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
 (Font)              `T1/Roboto-LF/regular/n' on input line 4.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 9.0pt on input line 4.
- (./cv_mdc.aux)
-\openout1 = `cv_mdc.aux'.
+
+No file cv_robert_bosch.aux.
+\openout1 = `cv_robert_bosch.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -660,7 +661,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -720,10 +720,8 @@ e
 \c@mv@tabular=\count315
 \c@mv@boldtabular=\count316
 Package hyperref Info: Link coloring OFF on input line 4.
-
-(./cv_mdc.out) (./cv_mdc.out)
 \@outlinefile=\write4
-\openout4 = `cv_mdc.out'.
+\openout4 = `cv_robert_bosch.out'.
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
 (Font)              `T1/Roboto-LF/regular/n' on input line 12.
@@ -778,12 +776,6 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
 (Font)              `T1/Roboto-LF/bold/n' on input line 30.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
 (Font)              scaled to size 9.0pt on input line 30.
-
-Overfull \hbox (3.11308pt too wide) in paragraph at lines 30--31
-\T1/Roboto-LF/bold/n/9 ge-nomics\T1/Roboto-LF/regular/n/9 , AI/machine learn-in
-g, and NGS anal-y-sis through spe-cial-ized train-
- []
-
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
 (Font)              `T1/Roboto-LF/regular/n' on input line 44.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
@@ -794,6 +786,7 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
 (Font)              scaled to size 10.0pt on input line 44.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
 nput line 44.
+
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
 LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input 
 line 44.
@@ -821,6 +814,12 @@ File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 Overfull \hbox (5.94226pt too wide) in paragraph at lines 66--66
 []\T1/Roboto-LF/regular/n/9 Spearheaded re-search mod-el-ing evo-lu-tion-ary pr
 o-cesses in ma-rine ecosys-
+ []
+
+
+Overfull \hbox (6.13171pt too wide) in paragraph at lines 83--83
+[]\T1/Roboto-LF/regular/n/9 Model De-vel-op-ment: De-vel-oped the novel ``Cyano
+bac-te-ria Life Cy-cle'' (CLC)
  []
 
 
@@ -858,15 +857,26 @@ Overfull \hbox (2.27165pt too wide) in paragraph at lines 152--152
  []
 
 
+Underfull \hbox (badness 1354) in paragraph at lines 156--156
+\T1/Roboto-LF/regular/n/8 mul-ti-di-men-sional ar-ray op-er-a-tions, JAX/GPU
+ []
+
+
 Overfull \hbox (2.27165pt too wide) in paragraph at lines 156--156
 [][] 
  []
 
-
-Overfull \hbox (2.01807pt too wide) in paragraph at lines 164--164
-[]\T1/Roboto-LF/regular/n/8 Nextflow (DSL2), NGS Anal-y-sis, Mul-ti-ple Se-quen
-ce Align-
- []
+! Misplaced alignment tab character &.
+<argument> Nextflow (DSL2), scRNA-seq &
+                                        Spatial Transcriptomics Concepts, NG...
+l.164 ...equence Trimming (trimAl), NCBI / Entrez}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 178--180
@@ -903,23 +913,45 @@ g, Conda-
  []
 
 
-Overfull \hbox (6.05383pt too wide) in paragraph at lines 199--199
+Overfull \hbox (3.88084pt too wide) in paragraph at lines 194--194
+[]\T1/Roboto-LF/bold/n/9 JAX/TPU High-Performance Sim-u-la-tor \TS1/Roboto-LF/r
+egular/n/9 ˆ []\U/fontawesomebrands0/regular/n/9 § \T1/Roboto-LF/regular/n/9 Gi
+tHub[] 
+ []
+
+
+Overfull \hbox (4.47894pt too wide) in paragraph at lines 195--195
+\T1/Roboto-LF/regular/n/8 chi-tec-ture us-ing Google JAX. En-gi-neered branch-l
+ess, vec-
+ []
+
+
+Overfull \hbox (6.05383pt too wide) in paragraph at lines 203--203
 \T1/Roboto-LF/regular/n/8 plant-ing data in Berlin us-ing Python, Pan-das, and 
 Seaborn. 
  []
 
-[2] (./cv_mdc.aux)
-Package rerunfilecheck Info: File `cv_mdc.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+[2] (./cv_robert_bosch.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `cv_robert_bosch.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cv_robert_bosch.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25252 strings out of 477290
- 496012 string characters out of 5818809
- 1893330 words of memory out of 5000000
+ 25246 strings out of 477290
+ 496045 string characters out of 5818809
+ 1894330 words of memory out of 5000000
  45022 multiletter control sequences out of 15000+600000
  570827 words of font info for 74 fonts, out of 8000000 for 9000
  417 hyphenation exceptions out of 8191
- 99i,12n,94p,748b,813s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,94p,823b,813s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}{/us
 r/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texm
 f-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{/usr/share/texlive/texmf-dist/fo
@@ -934,10 +966,10 @@ ype1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/g
 oogle/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900
 .pfb>
-Output written on cv_mdc.pdf (2 pages, 174337 bytes).
+Output written on cv_robert_bosch.pdf (2 pages, 175229 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,61 @@
+Logo von Robert-Bosch-Krankenhaus
+Robert-Bosch-Krankenhaus
+3,8
+Post Doctoral Research Scientist - Bioinformatics (m/f/d)
+
+Stuttgart
+
+Schnell bewerben
+
+
+
+Schnell bewerben
+Deine Qualifikationen für diesen Job
+
+Bearbeiten
+Python
+Doktorat
+R
+Kommunikationsfähigkeit
+Company Description
+
+The Dr. Margarete Fischer-Bosch Institute of Clinical Pharmacology, Stuttgart (Director Prof. Dr. M. Schwab) is operated by the Robert Bosch Foundation. Since its foundation in 1973, the institute has emerged as Germany's largest and most renowned scientific research unit in the field of clinical pharmacology. Main research activities concentrate on the influence of genetic and non-genetic factors on variability of drug efficacy and their contributions to disease development.
+
+For a research project investigating cancer therapy and tumor cell biology of renal cell carcinoma. The project will focus on the bioinformatic analysis of transcriptomics data, particularly spatial transcriptomics combined with single cell datasets, as well as spatial multiplex immunofluorescence data. It offers the opportunity to develop novel bioinformatics solutions. Functional studies using 3D tumour cell models complement the data sets in order to enhance our understanding of tumour biology in renal cell carcinoma. The project will be closely linked to clinical aspects of cancer research.
+
+
+Job Description
+Bioinformatic analysis of multi-omics data with focus on single-cell and spatial transcriptomics RNA sequencing data to elucidate the tumor microenvironment and its influence on cancer progression and metastasis in renal cell carcinoma
+Integrating multi-omics data sets (e.g. genomics, metabolomics) of primary tumors and metastasis through innovative bioinformatics analysis applicable to high-dimensional data
+Integrated analysis of clinical phenotypes and -omics data using biostatistics and bioinformatics
+Application of a broad spectrum of established tools and development of new computational solutions with focus on single-cell and spatial transcriptomics RNA seq and data integration
+Enthusiasm to present scientific results at international conferences and writing papers for high-quality publications to ensure greatest possible success in your career track
+
+Qualifications
+Doctoral degree (PhD) in bioinformatics, applied bioinformatics or a related discipline
+Experience and strong background in the analysis of spatial transcriptomics and single-cell RNA sequencing data, as well as multi-omics datasets (e.g. proteomics, transcriptomics, genomics), including data interpretation.
+Strong interest in life science applications with focus on oncology and personalized medicine
+Strong programming skills in R and in Python
+Solid background in cancer biology
+Knowledge in biostatistics would be beneficial
+Excellent English written and oral communication skills, as well as expertise in preparation of scientific manuscripts.
+
+Additional Information
+
+We offer:
+
+The opportunity to work in an interactive team of bioinformaticians, clinicians and biologists.
+State-of-the-art equipment and technologies for a wide range of different applications (genomics, transcriptomics, metabolomics) and expert knowledge within the different core facilities (e.g. core facility “Biostatistics/Bioinformatics, Pharmacometrics and Digital Science”) at the institute
+The opportunity to communicate scientific results at international conferences and to participate in workshops
+An initial contract for 3 years and flexible starting date (earliest starting date as of now)
+For further information please contact Prof. Dr. Matthias Schwab (phone 0711-8101-3700) or Dr. Elke Schaeffeler (phone 0711-8101-3729).
+
+Sind Sie bereit für eine neue Herausforderung? Dann bewerben Sie sich jetzt über unser Online-Karriereportal.
+
+Die angegebenen Arbeitgeberleistungen können je nach Position und Anstellungsverhältnis variieren.
+
+Bitte beachten Sie die geltenden Nachweispflichten aufgrund des Infektionsschutzgesetzes als Einstellungsvoraussetzung.
+
+Wir schätzen die Einzigartigkeit und Unterschiedlichkeit unserer Mitarbeitenden und fördern ein Arbeitsumfeld, das unabhängig von Alter, Geschlecht, sexueller Identität, Behinderung, Herkunft oder Religion gleiche Chancen ermöglicht.
+
+Mit Einreichung Ihrer Bewerbungsunterlagen stimmen Sie zu, dass Ihre Bewerberdaten in der Bewerbermanagementsoftware SmartRecruiters aufgenommen und verarbeitet werden. Hinweise zu unserem Datenschutz finden Sie hier: Datenschutz.
