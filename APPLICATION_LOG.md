@@ -2,6 +2,19 @@
 
 Dated record of all job applications. Updated after each session (Principle 21).
 
+## Octapharma Biopharmaceuticals GmbH — Molecular Design
+
+| | |
+|---|---|
+| **Date** | 10 March 2026 |
+| **Status** | Draft prepared |
+| **Contact** | Mrs. Dorothee Schaupp |
+| **Position** | Scientist R\&D Molecular Design (m/f/d) - Job ID 61464 |
+| **Documents** | `applications/octapharma_molecular_design/` |
+| **Notes** | Pivoted heavily to computational bioinformatics, focusing on NGS pipeline setup (Nextflow) and diversity analysis to compensate for lack of wet-lab Phage Display experience. |
+
+---
+
 ## Robert Bosch Hospital — Institute of Clinical Pharmacology
 
 | | |

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  10 MAR 2026 16:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  10 MAR 2026 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cv_erlangen.tex
-(./cv_erlangen.tex
+**cv_octapharma.tex
+(./cv_octapharma.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16> (./thejus_cv.cls
 Document Class: thejus_cv 2026/03/06 Custom CV Class
@@ -640,8 +640,8 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 9.0pt on input line 4.
 
-(./cv_erlangen.aux)
-\openout1 = `cv_erlangen.aux'.
+(./cv_octapharma.aux)
+\openout1 = `cv_octapharma.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -722,9 +722,9 @@ e
 \c@mv@boldtabular=\count316
 Package hyperref Info: Link coloring OFF on input line 4.
 
-(./cv_erlangen.out) (./cv_erlangen.out)
+(./cv_octapharma.out) (./cv_octapharma.out)
 \@outlinefile=\write4
-\openout4 = `cv_erlangen.out'.
+\openout4 = `cv_octapharma.out'.
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
 (Font)              `T1/Roboto-LF/regular/n' on input line 12.
@@ -872,9 +872,9 @@ Overfull \hbox (2.27165pt too wide) in paragraph at lines 164--164
  []
 
 
-Overfull \hbox (2.01807pt too wide) in paragraph at lines 172--172
-[]\T1/Roboto-LF/regular/n/8 Nextflow (DSL2), NGS Anal-y-sis, Mul-ti-ple Se-quen
-ce Align-
+Overfull \hbox (4.66972pt too wide) in paragraph at lines 172--172
+\T1/Roboto-LF/regular/n/8 quence Align-ment (MAFFT), Se-quence Trim-ming (tri-m
+Al),
  []
 
 
@@ -900,15 +900,9 @@ vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
 n input line 198.
 
-Overfull \hbox (6.80371pt too wide) in paragraph at lines 199--199
-[]\T1/Roboto-LF/regular/n/8 Nextflow (DSL2) pipeline for vi-ral se-quence anal-
-y-sis: NCBI
- []
-
-
-Overfull \hbox (15.63771pt too wide) in paragraph at lines 199--199
-\T1/Roboto-LF/regular/n/8 En-trez down-load, MAFFT align-ment, tri-mAl trim-min
-g, Conda-
+Overfull \hbox (4.0569pt too wide) in paragraph at lines 199--199
+[]\T1/Roboto-LF/regular/n/8 Nextflow (DSL2) pipeline for vi-ral se-quence di-ve
+r-sity anal-
  []
 
 
@@ -924,29 +918,23 @@ Overfull \hbox (4.47894pt too wide) in paragraph at lines 203--203
 ess, vec-
  []
 
-
-Overfull \hbox (6.05383pt too wide) in paragraph at lines 211--211
-\T1/Roboto-LF/regular/n/8 plant-ing data in Berlin us-ing Python, Pan-das, and 
-Seaborn. 
- []
-
 <thejus signature.jpg, id=31, 421.575pt x 120.45pt>
 File: thejus signature.jpg Graphic file (type jpg)
 <use thejus signature.jpg>
 Package pdftex.def Info: thejus signature.jpg  used on input line 232.
 (pdftex.def)             Requested size: 99.58475pt x 28.45274pt.
-[2 <./thejus signature.jpg>] (./cv_erlangen.aux)
-Package rerunfilecheck Info: File `cv_erlangen.out' has not changed.
+[2 <./thejus signature.jpg>] (./cv_octapharma.aux)
+Package rerunfilecheck Info: File `cv_octapharma.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  25262 strings out of 477290
- 496359 string characters out of 5818809
+ 496393 string characters out of 5818809
  1894330 words of memory out of 5000000
  45031 multiletter control sequences out of 15000+600000
  571112 words of font info for 75 fonts, out of 8000000 for 9000
  417 hyphenation exceptions out of 8191
- 99i,12n,94p,464b,813s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,94p,466b,813s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{/usr/share/texlive/texmf-d
 ist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fo
@@ -961,7 +949,7 @@ ype1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/g
 oogle/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900
 .pfb>
-Output written on cv_erlangen.pdf (2 pages, 198320 bytes).
+Output written on cv_octapharma.pdf (2 pages, 198459 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
