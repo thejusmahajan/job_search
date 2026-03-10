@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  10 MAR 2026 16:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  10 MAR 2026 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -823,72 +823,76 @@ Overfull \hbox (5.94226pt too wide) in paragraph at lines 74--74
 o-cesses in ma-rine ecosys-
  []
 
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
+(Font)              `T1/Roboto-LF/regular/it' on input line 92.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 9.0pt on input line 92.
 
-Overfull \hbox (6.13171pt too wide) in paragraph at lines 91--91
+Overfull \hbox (6.13171pt too wide) in paragraph at lines 92--92
 []\T1/Roboto-LF/regular/n/9 Model De-vel-op-ment: De-vel-oped the novel ``Cyano
 bac-te-ria Life Cy-cle'' (CLC)
  []
 
 
-Overfull \hbox (0.54956pt too wide) in paragraph at lines 103--104
+Overfull \hbox (0.54956pt too wide) in paragraph at lines 104--105
 []\T1/Roboto-LF/regular/n/9 Prepared physics con-tent for com-pet-i-tive ex-am-
 i-na-tions and coached state-
  []
 
 
-Overfull \hbox (13.51413pt too wide) in paragraph at lines 122--122
+Overfull \hbox (13.51413pt too wide) in paragraph at lines 123--123
 []\T1/Roboto-LF/bold/n/9 Université Paris-Saclay, In-sti-tute of Molec-u-lar Sc
 i-ences (ISMO) Or-say, France[] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 138--145
+Overfull \hbox (12.0pt too wide) in paragraph at lines 139--146
 [][]
  []
 
 
-Overfull \hbox (2.27165pt too wide) in paragraph at lines 156--156
+Overfull \hbox (2.27165pt too wide) in paragraph at lines 157--157
 [][] 
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 160--160
+Underfull \hbox (badness 1642) in paragraph at lines 161--161
 []\T1/Roboto-LF/regular/n/8 Resolved a crit-i-cal data-loss er-ror by cre-at-
  []
 
 
-Overfull \hbox (2.27165pt too wide) in paragraph at lines 160--160
+Overfull \hbox (2.27165pt too wide) in paragraph at lines 161--161
 [][] 
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 164--164
+Underfull \hbox (badness 1354) in paragraph at lines 165--165
 \T1/Roboto-LF/regular/n/8 mul-ti-di-men-sional ar-ray op-er-a-tions, JAX/GPU
  []
 
 
-Overfull \hbox (2.27165pt too wide) in paragraph at lines 164--164
+Overfull \hbox (2.27165pt too wide) in paragraph at lines 165--165
 [][] 
  []
 
 
-Overfull \hbox (2.01807pt too wide) in paragraph at lines 172--172
+Overfull \hbox (2.01807pt too wide) in paragraph at lines 173--173
 []\T1/Roboto-LF/regular/n/8 Nextflow (DSL2), NGS Anal-y-sis, Mul-ti-ple Se-quen
 ce Align-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--188
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--192
+Underfull \hbox (badness 10000) in paragraph at lines 190--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
 
  []
 
@@ -898,73 +902,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--195
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 198.
+n input line 199.
 
-Overfull \hbox (6.80371pt too wide) in paragraph at lines 199--199
+Overfull \hbox (6.80371pt too wide) in paragraph at lines 200--200
 []\T1/Roboto-LF/regular/n/8 Nextflow (DSL2) pipeline for vi-ral se-quence anal-
 y-sis: NCBI
  []
 
 
-Overfull \hbox (15.63771pt too wide) in paragraph at lines 199--199
+Overfull \hbox (15.63771pt too wide) in paragraph at lines 200--200
 \T1/Roboto-LF/regular/n/8 En-trez down-load, MAFFT align-ment, tri-mAl trim-min
 g, Conda-
  []
 
 
-Overfull \hbox (3.88084pt too wide) in paragraph at lines 202--202
+Overfull \hbox (3.88084pt too wide) in paragraph at lines 203--203
 []\T1/Roboto-LF/bold/n/9 JAX/TPU High-Performance Sim-u-la-tor \TS1/Roboto-LF/r
 egular/n/9 ˆ []\U/fontawesomebrands0/regular/n/9 § \T1/Roboto-LF/regular/n/9 Gi
 tHub[] 
  []
 
 
-Overfull \hbox (4.47894pt too wide) in paragraph at lines 203--203
+Overfull \hbox (4.47894pt too wide) in paragraph at lines 204--204
 \T1/Roboto-LF/regular/n/8 chi-tec-ture us-ing Google JAX. En-gi-neered branch-l
 ess, vec-
  []
 
 
-Overfull \hbox (6.05383pt too wide) in paragraph at lines 211--211
+Overfull \hbox (6.05383pt too wide) in paragraph at lines 212--212
 \T1/Roboto-LF/regular/n/8 plant-ing data in Berlin us-ing Python, Pan-das, and 
 Seaborn. 
  []
 
-<thejus signature.jpg, id=31, 421.575pt x 120.45pt>
+<thejus signature.jpg, id=32, 421.575pt x 120.45pt>
 File: thejus signature.jpg Graphic file (type jpg)
 <use thejus signature.jpg>
-Package pdftex.def Info: thejus signature.jpg  used on input line 232.
+Package pdftex.def Info: thejus signature.jpg  used on input line 233.
 (pdftex.def)             Requested size: 99.58475pt x 28.45274pt.
 [2 <./thejus signature.jpg>] (./cv_erlangen.aux)
 Package rerunfilecheck Info: File `cv_erlangen.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25262 strings out of 477290
- 496359 string characters out of 5818809
+ 25266 strings out of 477290
+ 496447 string characters out of 5818809
  1894330 words of memory out of 5000000
- 45031 multiletter control sequences out of 15000+600000
- 571112 words of font info for 75 fonts, out of 8000000 for 9000
+ 45033 multiletter control sequences out of 15000+600000
+ 576327 words of font info for 77 fonts, out of 8000000 for 9000
  417 hyphenation exceptions out of 8191
  99i,12n,94p,464b,813s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{/usr/share/texlive/texmf-d
-ist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fo
-nts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/
-enc/dvips/fontawesome5/fa5free3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dv
-ips/fontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ro
-boto/rbto_b5rac7.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{/usr/share/texlive/texmf-dist/fonts
+/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/d
+vips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
+/fontawesome5/fa5free3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fonta
+wesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome
 5/fa5free2.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/F
 ontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/g
-oogle/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900
-.pfb>
-Output written on cv_erlangen.pdf (2 pages, 198320 bytes).
+oogle/roboto/Roboto-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/googl
+e/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb
+>
+Output written on cv_erlangen.pdf (2 pages, 212006 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 86 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
