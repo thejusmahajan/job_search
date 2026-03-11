@@ -1,0 +1,224 @@
+\documentclass{thejus_cv}
+\usepackage[hidelinks]{hyperref}
+
+\begin{document}
+
+% --- HEADER ---
+\cvheader{Thejus Mahajan Ph.D.}
+         {Lebenslauf}
+         {+49 1525 9697629}
+         {thejus.mahajan@uni-hamburg.de}
+         {\href{https://thejusmahajan.github.io}{thejusmahajan.github.io}}
+         {Reventlowstra{\ss}e 17, 22605 Hamburg}
+
+% Extra contact row for personal details and links
+\vspace{-0.5cm}
+{\small\color{white}
+\faCalendar\ \ *30.09.1992 (Talikulam, Indien) \hspace{0.5cm} \faUser\ \ Verheiratet \hspace{0.5cm} Staatsangeh\"origkeit: Indisch
+}\par
+\vspace{0.1cm}
+{\small\color{white}
+\faLinkedin\ \ \href{https://www.linkedin.com/in/thejusmahajan/}{linkedin.com/in/thejusmahajan}
+\hspace{0.5cm}
+\faGithub\ \ \href{https://github.com/thejusmahajan}{github.com/thejusmahajan}
+\hspace{0.5cm}
+\faGraduationCap\ \ \href{https://scholar.google.com/citations?user=PJkZwAwAAAAJ}{Google Scholar}
+}\par
+\vspace{0.3cm}
+
+\begin{paracol}{2}
+
+% ==============================================
+% LEFT COLUMN
+% ==============================================
+
+\cvsection{Profil}
+\begin{itemize}[label=\textbullet, leftmargin=1em]
+    \item Computational Scientist (Promotion, Post-doc) mit Erfahrung in Datenpipeline-Engineering, mathematischer Modellierung und Hochleistungsrechnen.
+    \item Kernkompetenzen: R (tidyverse), Python (JAX, Pandas), Fortran, SQL, Git.
+    \item Aktuell: Praktikum in klinischer Datenforschung bei HealthTwiSt GmbH (medizinische Datenpipeline, 143K+ Datens\"atze).
+    \item \textbf{Verf\"ugbar ab Mitte April 2026} (nach Absprache ggf.\ fr\"uher).
+    \item Offen f\"ur: Data Science, Biostatistik, Bioinformatik, klinische Datenanalyse, Research Software Engineering.
+\end{itemize}
+
+\cvsection{Berufserfahrung}
+
+\cvexperience{Praktikum -- Klinische Biostatistik \& Datenpipeline-Engineering}
+             {HealthTwiSt GmbH}
+             {02/2026 - heute}
+             {Berlin, Deutschland}
+             {Klinische Datenforschung und -entwicklung unter Dr.~Andreas Busjahn
+             \begin{itemize}
+                 \item Refactoring einer monolithischen 1.834-Zeilen R-Datenpipeline (tidyverse) f\"ur Deutschlands interventionell-radiologisches Qualit\"atsregister (DeGIR); 143.000+ Patientendatens\"atze.
+                 \item Externalisierung von 257 hardcodierten Korrekturregeln in 8 Konfigurations-CSV-Dateien; Codereduktion um 26,5\% (1.834 $\rightarrow$ 1.348 Zeilen).
+                 \item Entwicklung einer parametrisierten Komplikationsgradfunktion, die 124 Zeilen repetitiven Codes ersetzt.
+                 \item Ersetzung von 72 veralteten Funktionsaufrufen durch moderne tidyverse-\"Aquivalente (gather/spread $\rightarrow$ pivot\_longer/pivot\_wider).
+                 \item Identifizierung von 2 latenten Logikfehlern durch systematische Codeanalyse; Dokumentation ohne \"Anderung des Pipeline-Verhaltens. Alle \"Anderungen per \texttt{identical()}-Vergleich byte-identisch verifiziert.
+             \end{itemize}}
+
+\cvexperience{Weiterbildung -- Bioinformatik und Biostatistik}
+             {CQ Beratung + Bildung GmbH}
+             {08/2025 - 02/2026}
+             {Berlin, Deutschland}
+             {Anwendungsorientierte Bioinformatik und Biostatistik
+             \begin{itemize}
+                 \item Programmiermethodik: Shell (BASH), Python (objektorientiert), R.
+                 \item Bioinformatik-Datenbanken (NCBI, Biopython, SQL) und Sequenzanalyse.
+                 \item NGS-Analysepipelines (Nextflow, Galaxy); Strukturbioinformatik.
+                 \item Biostatistik (R/Bioconductor): ANOVA, PCA, HCA, multivariate Analyse, Markov-Ketten.
+             \end{itemize}}
+
+\cvexperience{Gastwissenschaftler (parallel zur Weiterbildung ab 08/2025)}
+             {Helmholtz-Zentrum Hereon, \"Okosystemmodellierung}
+             {05/2025 - 10/2025}
+             {Geesthacht, Deutschland}
+             {Modellierung evolution\"arer Prozesse in Meeres\"okosystemen; Simulation langfristiger Umweltauswirkungen mittels fortgeschrittener Rechenmethoden.}
+
+\cvexperience{Jobsuche \& Deutschkurs}
+             {}
+             {02/2025 - 04/2025}
+             {Hamburg, Deutschland}
+             {Aktive Stellensuche und Erwerb der deutschen Sprache (Goethe-Zertifikat B1).}
+
+\cvexperience{Post-doctoral Scientist}
+             {Universit\"at Hamburg, Institut f\"ur Marine \"Okosystem- und Fischereiwiss.}
+             {08/2021 - 01/2025}
+             {Hamburg, Deutschland}
+             {Meeres\"okosystem-Modellierung
+             \begin{itemize}
+                 \item \textit{Elternzeit von 01/2024 bis 12/2024.}
+                 \item Modellentwicklung: Entwicklung des ``Cyanobacteria Life Cycle'' (CLC)-Modells im ERGOM-Framework f\"ur Klimaerw\"armungsprojektionen.
+                 \item Hochleistungsrechnen: \"Ubersetzung eines Legacy-Fortran-Modells in eine hochperformante Python-Engine (\textbf{Google JAX}, TPU/GPU-Parallelisierung). Verarbeitung gro{\ss}er NetCDF-Datens\"atze in Linux-HPC-Umgebung.
+             \end{itemize}}
+
+\cvexperience{Berufliche Neuorientierung}
+             {}
+             {04/2021 - 07/2021}
+             {Hamburg, Deutschland}
+             {Umzug von Indien nach Deutschland und aktive Stellensuche.}
+
+\cvexperience{Physik-Dozent \& Schachtrainer}
+             {Freiberuflich / Tutorwaves Solutions Inc (ab 08/2020)}
+             {10/2018 - 03/2021}
+             {Kerala, Indien}
+             {Freiberufliche Physik-Nachhilfe und Coaching von Schachmannschaften auf Landesebene; ab 08/2020 bei Tutorwaves: Erstellung von Physikinhalten und Betreuung von Sch\"ulern in den USA und Australien.}
+
+\cvexperience{Doktorand in Astrochemie}
+             {Universit\'e Paris-Saclay}
+             {10/2015 - 09/2018}
+             {Orsay, Frankreich}
+             {Leitung von Atomkollisionsexperimenten, Datenanalyse und Ergebnismodellierung.
+             \begin{itemize}
+                 \item Erfassung und Verarbeitung von Terabytes an Rohdaten aus Tandem-Teilchenbeschleunigerexperimenten.
+                 \item C++ Algorithmenentwicklung: Rauschunterdr\"uckung, Signalgl\"attung und Konvertierung von Rohdaten in mehrdimensionale Strukturen.
+                 \item Entwicklung eines molekularen Fragmentierungsmodells zur Vorhersage chemischer Reaktionen im Weltraum (Beitrag zur KIDA-Datenbank).
+             \end{itemize}}
+
+
+\cvsection{Ausbildung}
+
+\cvexperience{Promotion in Astrochemie}
+             {Universit\'e Paris-Saclay, Institute of Molecular Sciences (ISMO)}
+             {10/2015 - 09/2018}
+             {Orsay, Frankreich}
+             {{\small Diss.: \textit{Excitation and fragmentation of C$_n$N$^+$ (n=1--3) in collisions with He atoms at intermediate velocity.}}}
+
+\cvexperience{Forschungsprojekt -- Theoretische Atomphysik}
+             {IIT Mandi (unter Dr.~Hari Varma)}
+             {02/2015 - 08/2015}
+             {Mandi, Indien}
+             {}
+
+\cvexperience{M.Sc. in Physik}
+             {National Institute of Technology Calicut, Indien}
+             {07/2012 - 12/2014}
+             {Calicut, Indien}
+             {{\small First Class with Distinction (CGPA 8,71/10).}}
+
+\cvexperience{B.Sc. in Physik}
+             {University of Calicut, Indien}
+             {06/2009 - 04/2012}
+             {Thrissur, Indien}
+             {{\small B+ (CGPA 3,49/4,0). Anschl.~05--06/2012: Aufnahmepr\"ufung und Zulassung zum M.Sc.}}
+
+\vspace{0.4cm}
+\begin{flushleft}
+{\small Hamburg, 11. M\"arz 2026}\\[0.15cm]
+\includegraphics[height=0.7cm]{thejus signature.jpg}\\[0.05cm]
+{\small \textbf{Dr. Thejus Mahajan}}
+\end{flushleft}
+
+\switchcolumn
+
+% ==============================================
+% RIGHT COLUMN
+% ==============================================
+
+\cvsection{St\"arken}
+
+\cvstrength{\faStar}
+           {Datenpipeline-Engineering}
+           {Refactoring einer Produktions-Datenpipeline (1.834 Zeilen, 143K Datens\"atze) mit 26,5\% Codereduktion bei null Verhaltensregression. Byte-Level-Verifizierung nach jeder \"Anderung.}
+
+\cvstrength{\faLightbulb}
+           {Komplexe Probleml\"osung}
+           {L\"osung eines kritischen Datenverlusts durch Erstellung einer Fortran-Simulation zur Korrektur eines falsch platzierten Teilchendetektors; Neuberechnung der Ergebnisse mittels Multisensor-Daten.}
+
+\cvstrength{\faAward}
+           {Bioinformatik \& Biostatistik}
+           {Verbindung von physikalischer Expertise mit modernen biologischen Workflows. Versiert in NGS-Datenanalyse, Sequenzalignment und multivariater statistischer Modellierung mit R (Bioconductor) und Python.}
+
+\cvsection{Technische F\"ahigkeiten}
+
+\cvskills{Programmierung}
+         {R (tidyverse, dplyr, tidyr, stringr, readr, R~Markdown), Python (JAX, Pandas, NumPy), Fortran, SQL, BASH}
+
+\cvskills{Dateningenieurwesen}
+         {Pipeline-Refactoring, konfigurationsgetriebene Architektur, \texttt{identical()}-Verifizierung, Verarbeitung gro{\ss}er Datens\"atze (HDF5, NetCDF)}
+
+\cvskills{Bioinformatik}
+         {NGS-Analyse, Nextflow (DSL2), Sequenzanalyse, Bioconductor}
+
+\cvskills{Biostatistik}
+         {Multivariate Analyse, PCA, ANOVA, Dimensionality Reduction, Tidymodels}
+
+\cvskills{Werkzeuge}
+         {Git/GitHub (Branching, kollaborative Workflows), Linux/Unix, HPC-Cluster, Conda, LaTeX}
+
+\cvsection{Sprachen}
+
+\cvlanguage{Englisch}{Verhandlungssicher (C1)}{4}
+\cvlanguage{Deutsch}{B1 (Goethe-Zertifikat), B2 in Vorbereitung}{3}
+\cvlanguage{Franz\"osisch}{Grundkenntnisse}{2}
+\cvlanguage{Malayalam}{Muttersprache}{5}
+\cvlanguage{Tamil}{Verhandlungssicher}{4}
+\cvlanguage{Hindi}{Grundkenntnisse}{2}
+
+
+\cvsection{Weiterbildung / Kurse}
+
+\textbf{High Performance Computing (HPC) Training}\\
+J\"ulich Supercomputing \textbf{Center (JSC)},\\
+Forschungszentrum J\"ulich\\[0.3cm]
+
+\textbf{MITx: 7.00x Introduction to Biology -- The Secret of Life}\\
+{\small Umfassende Kursarbeit zu Genetik, Biochemie und Molekularbiologie.}\\[0.4cm]
+
+\cvsection{Publikationen}
+
+{\small
+T.~Mahajan et al. \textit{J.~Phys.: Conf.~Ser.}, 1412:142026, 2020.\\[0.15cm]
+{\color{cvlightgray}\hdashrule{\linewidth}{0.5pt}{1mm}}\\[0.15cm]
+T.~Idbarkach et al. \textit{Astron.~Astrophys.}, 628:A75, 2019.\\[0.15cm]
+{\color{cvlightgray}\hdashrule{\linewidth}{0.5pt}{1mm}}\\[0.15cm]
+T.~Mahajan et al. \textit{J.~Phys.~B}, 2019.\\[0.15cm]
+{\color{cvlightgray}\hdashrule{\linewidth}{0.5pt}{1mm}}\\[0.15cm]
+T.~Idbarkach et al. \textit{J.~Phys.~B}, 51(24):245201, 2018.\\[0.15cm]
+{\color{cvlightgray}\hdashrule{\linewidth}{0.5pt}{1mm}}\\[0.15cm]
+T.~Idbarkach et al. \textit{J.~Phys.: Conf.~Ser.}, 1412(11):112028, 2020.
+}\\[0.1cm]
+\href{https://scholar.google.com/citations?user=PJkZwAwAAAAJ}{\faGraduationCap\ Google Scholar Profil}
+
+\end{paracol}
+
+\end{document}
