@@ -1,13 +1,11 @@
-\documentclass[9pt, a4paper]{extarticle}
+\documentclass[11pt, a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[default]{roboto}
-\usepackage[margin=2.5cm, right=2.0cm, top=3.5cm, bottom=1.5cm]{geometry}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm]{geometry}
 \usepackage{parskip}
 \usepackage{graphicx}
 \usepackage{hyperref}
-
-\renewcommand{\familydefault}{\sfdefault}
 
 \begin{document}
 \pagestyle{empty}
@@ -32,33 +30,27 @@ Hamburg, 18. April 2026
 
 % Empf\"anger --- LEAVE AS PLACEHOLDER
 \begin{flushleft}
-{[Empf\"angername]}\\
-{[Unternehmen/Institution]}\\
-{[Stra{\ss}e]}\\
-{[Stadt, PLZ]}
+{[PLATZHALTER --- bitte ausf\"ullen]}\\
+{[PLATZHALTER --- bitte ausf\"ullen]}\\
+{[PLATZHALTER --- bitte ausf\"ullen]}\\
+{[PLATZHALTER --- bitte ausf\"ullen]}
 \end{flushleft}
 
 \vspace{0.3cm}
 
 % Betreff
-\textbf{Bewerbung als Clinical Data Scientist (m/w/d)}
+\textbf{Bewerbung als [PLATZHALTER --- bitte ausf\"ullen] --- Referenznummer [PLATZHALTER --- bitte ausf\"ullen]}
 
+\vspace{0.3em}
 Sehr geehrte Damen und Herren,
 
-die Anwendung robuster rechnergest\"utzter Methoden zur Verarbeitung umfangreicher klinischer Daten ist entscheidend f\"ur moderne medizinische Datenpipelines. Mit einem starken Hintergrund als Computational Scientist, der von der theoretischen Physik zur klinischen Bioinformatik wechselt, bringe ich umfassende Erfahrung in der Verwaltung komplexer Dateninfrastrukturen mit. W\"ahrend meines Praktikums habe ich eine medizinische Produktionsdatenpipeline f\"ur \"uber 143.000 Patientenakten aus rund 300 Kliniken einem Refactoring unterzogen und damit meine F\"ahigkeit unter Beweis gestellt, anspruchsvolle Rechnerarchitekturen mit klinischer Datenverarbeitung zu verbinden. Diese Kombination positioniert mich ideal, um in einem interdisziplin\"aren Umfeld als Clinical Data Scientist beizutragen.
+{[PLATZHALTER --- bitte ausf\"ullen]}
 
-Bei der HealthTwiSt GmbH entwickelte ich eine Produktionspipeline, die speziell auf das Qualit\"atsregister DeGIR -- das deutsche Register f\"ur interventionelle Radiologie -- zugeschnitten war. Ich wandte R und das tidyverse-\"Okosystem konsequent an, um den Betrieb f\"ur Datens\"atze mit 143.143 Zeilen und 1.920 Variablen zu skalieren. Durch die Einf\"uhrung einer konfigurationsgetriebenen Externalisierung habe ich 257 hartcodierte Regeln erfolgreich in 8 Konfigurations-CSV-Dateien entkoppelt, was die Wartbarkeit des Systems erheblich verbesserte. Um Konsistenz und Sicherheit zu gew\"ahrleisten, habe ich den gesamten Refactoring-Workflow hindurch eine Byte-Level-Verifizierung mittels strenger \texttt{identical()}-Tests beibehalten. Dar\"uber hinaus erstellte ich ein umfassendes, zweisprachiges R Shiny-Dashboard mit sechs interaktiven Modulen und synthetisierte erfolgreich das R-Paket \texttt{degirtools} aus komplexem Legacy-Code.
+Bei der HealthTwiSt GmbH brachte ich nachweisbare Code-Disziplin in klinische Datenstrukturen. Ich refaktorierte die R-Produktionspipeline f\"ur das DeGIR-Qualit\"atsregister mit \"uber 143.000 Patientenakten aus fast 300 Kliniken. Durch die Externalisierung von 257 hartcodierten Regeln reduzierte ich den Codebestand von 1.834 auf 1.349 Zeilen. Diese Modernisierung verifizierte ich byte-identisch. Diese Art von Arbeit --- das systematische Aufr\"aumen einer real genutzten klinischen Produktionspipeline unter DSGVO-Auflagen --- ist der eigentliche Alltag klinischer Datenteams, unabh\"angig vom medizinischen Fachgebiet. Dieselbe Methodik --- Konfigurations-Externalisierung, systematische Code-Modernisierung und Byte-Level-Verifizierung --- l\"asst sich auf jede R-basierte klinische Pipeline \"ubertragen, die \"uber die Zeit organisch gewachsen ist.
 
-Zur Unterst\"utzung klinischer Data-Science-Initiativen biete ich folgende Kernst\"arken:
-\begin{itemize}
-    \item \textbf{Klinisches Datenpipeline-Engineering:} Umfassende praktische Erfahrung im Aufbau medizinischer Produktionsdatenpipelines mittels R und tidyverse; nachgewiesene F\"ahigkeit zur Sicherstellung der DSGVO-konformen Bearbeitung von 143.000+ Patientenakten; Implementierung konfigurationsgetriebener Architekturen zur systematischen Wartbarkeit und Zug\"anglichkeit f\"ur Nicht-Programmierer.
-    \item \textbf{Biostatistik \& Datenanalyse:} F\"ahigkeit zu multivariaten Analyseanwendungen wie PCA und ANOVA; Profil in der Entwicklung robuster Machine-Learning-Workflows mittels tidymodels; erfahren im Entwurf interaktiver Datenvisualisierungen mit R Shiny und plotly sowie in der Erstellung statistischer Berichte, die auf klinische Governance-Boards zugeschnitten sind.
-    \item \textbf{Scientific Computing \& HPC:} Starkes Fundament in hochperformanten Python-Frameworks, einschlie{\ss}lich Google JAX, f\"ur TPU/GPU-Parallelisierungsarchitekturen; umfassender Hintergrund in der Modell\"ubersetzung von Fortran nach Python sowie in der Optimierung von Workflows zur Verarbeitung gro{\ss}er Datens\"atze mittels NetCDF und HDF5 innerhalb von Linux-Hochleistungsrechnerclustern.
-\end{itemize}
+Mein technisches Fundament basiert auf einer Promotion in Astrochemie und einer mehrj\"ahrigen Post-doc-Phase in wissenschaftlichem Rechnen, erg\"anzt durch die aktuelle Weiterbildung in Bioinformatik und Biostatistik. Ich kombiniere pr\"azise Datenmodellierung mit fundierten R- und tidyverse-Kenntnissen. Zudem entwickle ich reproduzierbare Hochdurchsatz-Analysen mit Nextflow und Bioconductor. Mit diesen Werkzeugen baue und warte ich auditierbare Analyse-Pipelines f\"ur klinische Register und Forschungsdaten.
 
-Meine umfassende akademische Ausbildung, erweitert durch gezielte Qualifizierungskurse in Bioinformatik und Biostatistik bei CQ Beratung+Bildung (einschlie{\ss}lich Next-Generation Sequencing, Nextflow und Bioconductor), bietet mir eine vielseitige Basis, um strenge quantitative Herausforderungen zu l\"osen und rechnergest\"utzte Disziplin in klinischen Umgebungen anzuwenden. Ich stehe ab Mitte April 2026 zur Verf\"ugung und bin sehr daran interessiert, rechnerische Pr\"azision in verwertbare klinische Erkenntnisse f\"ur Ihr Team zu \"ubersetzen.
-
-Ich freue mich darauf, meine Qualifikationen in einem pers\"onlichen Gespr\"ach mit Ihnen zu er\"ortern.
+Ich stehe Ihnen ab Mitte April 2026 zur Verf\"ugung. Meine Gehaltsvorstellung liegt bei [PLATZHALTER --- bitte ausf\"ullen]. Ich freue mich darauf, in einem pers\"onlichen Gespr\"ach zu er\"ortern, wie ich Ihr Team konkret unterst\"utzen kann.
 
 Mit freundlichen Gr\"u{\ss}en
 

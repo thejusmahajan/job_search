@@ -39,14 +39,14 @@
   % #1=Name, #2=Title, #3=Phone, #4=Email, #5=Link, #6=Location
   \begin{tikzpicture}[remember picture, overlay]
     % Background Cyan Rectangle
-    \fill[cvcyan] (current page.north west) rectangle ([yshift=-4.3cm]current page.north east);
+    \fill[cvcyan] (current page.north west) rectangle ([yshift=-4.4cm]current page.north east);
     
     % Text Content Group
-    \node[anchor=north west, inner sep=0pt] at ([xshift=1.2cm, yshift=-1.0cm]current page.north west) {
-      \begin{minipage}{14cm}
+    \node[anchor=north west, inner sep=0pt] at ([xshift=1.2cm, yshift=-0.7cm]current page.north west) {
+      \begin{minipage}{15.5cm}
         \raggedright
-        {\fontsize{28pt}{32pt}\selectfont\color{white}\textbf{\uppercase{#1}}}\\[0.2cm]
-        {\Large\color{white}\textbf{#2}}\\[0.35cm]
+        {\fontsize{28pt}{32pt}\selectfont\color{white}\textbf{\uppercase{#1}}}\\[0.1cm]
+        {\Large\color{white}\textbf{#2}}\\[0.1cm]
         \color{white}\small
         \renewcommand{\arraystretch}{1.3}
         \begin{tabular}{@{} p{5.5cm} p{6cm} @{}}
@@ -58,13 +58,13 @@
     
     % Profile Picture (Proper circular clipping without distortion)
     \begin{scope}
-      \clip ([xshift=-3.5cm, yshift=-2.15cm]current page.north east) circle (1.75cm);
-      \node[anchor=center] at ([xshift=-3.5cm, yshift=-2.15cm]current page.north east) {
-        \includegraphics[width=3.6cm]{assets/img-000.jpg}
+      \clip ([xshift=-2.6cm, yshift=-2.2cm]current page.north east) circle (2.0cm);
+      \node[anchor=center] at ([xshift=-2.6cm, yshift=-2.2cm]current page.north east) {
+        \includegraphics[width=4.2cm]{assets/img-000.jpg}
       };
     \end{scope}
     % White Border for Profile Picture
-    \draw[white, line width=3pt] ([xshift=-3.5cm, yshift=-2.15cm]current page.north east) circle (1.75cm);
+    \draw[white, line width=3pt] ([xshift=-2.6cm, yshift=-2.2cm]current page.north east) circle (2.0cm);
 
   \end{tikzpicture}
   \vspace*{3cm} % Force space for the header so text begins safely below it

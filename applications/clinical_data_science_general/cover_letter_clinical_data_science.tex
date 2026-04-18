@@ -1,13 +1,11 @@
-\documentclass[9pt, a4paper]{extarticle}
+\documentclass[11pt, a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[default]{roboto}
-\usepackage[margin=2.5cm, right=2.0cm, top=3.5cm, bottom=1.5cm]{geometry}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm]{geometry}
 \usepackage{parskip}
 \usepackage{graphicx}
 \usepackage{hyperref}
-
-\renewcommand{\familydefault}{\sfdefault}
 
 \begin{document}
 \pagestyle{empty}
@@ -32,33 +30,27 @@ Hamburg, 18 April 2026
 
 % Recipient --- LEAVE AS PLACEHOLDER
 \begin{flushleft}
-{[Recipient Name]}\\
-{[Company/Institution]}\\
-{[Street Address]}\\
-{[City, Postal Code]}
+{[PLATZHALTER --- bitte ausf\"ullen]}\\
+{[PLATZHALTER --- bitte ausf\"ullen]}\\
+{[PLATZHALTER --- bitte ausf\"ullen]}\\
+{[PLATZHALTER --- bitte ausf\"ullen]}
 \end{flushleft}
 
 \vspace{0.3cm}
 
 % Subject
-\textbf{Application as Clinical Data Scientist (m/f/d)}
+\textbf{Application as [PLATZHALTER --- bitte ausf\"ullen] --- Reference [PLATZHALTER --- bitte ausf\"ullen]}
 
+\vspace{0.3em}
 Dear Hiring Manager,
 
-The application of robust computational methods to process large-scale clinical data is vital for modern medical data pipelines. With a strong background as a computational scientist transitioning from theoretical physics to clinical bioinformatics, I bring extensive experience in managing complex data infrastructures. During my internship, I refactored a production medical data pipeline encompassing over 143,000 patient records from approximately 300 clinics, demonstrating my capability to bridge sophisticated computational architecture with clinical data processing. This combination positions me perfectly to contribute as a Clinical Data Scientist in an interdisciplinary setting.
+{[PLATZHALTER --- bitte ausf\"ullen]}
 
-At HealthTwiSt GmbH, I engineered a production pipeline tailored for the DeGIR quality registry, Germany's interventional radiology registry. I rigorously applied R and the tidyverse ecosystem to scale operations across datasets containing 143,143 rows and 1,920 variables. By introducing a config-driven externalization method, I successfully decoupled 257 hard-coded rules into 8 configuration CSV files, substantially improving system maintainability. To guarantee consistency and safety, I maintained byte-level verification throughout the refactoring workflow using strict \texttt{identical()} baseline testing. Additionally, I constructed a comprehensive, bilingual R Shiny dashboard containing six interactive modules and successfully synthesized the \texttt{degirtools} R package out of complex legacy code.
+At HealthTwiSt GmbH, I introduced strict code discipline into clinical data infrastructure. I refactored the R production pipeline for the DeGIR quality registry, which processes over 143,000 patient records from almost 300 clinics. I removed 257 hard-coded rules and reduced the codebase from 1,834 to 1,349 lines while guaranteeing identical byte-level outputs. This kind of work --- the systematic clean-up of a live clinical production pipeline under GDPR constraints --- is the actual day-to-day of clinical data teams, regardless of the medical specialty. The same methodology --- configuration externalisation, systematic code modernisation, and byte-level verification --- transfers to any R-based clinical pipeline that has grown organically over time.
 
-In supporting clinical data science initiatives, I offer the following core strengths:
-\begin{itemize}
-    \item \textbf{Clinical Data Engineering:} Extensive practical experience in building production-grade medical data pipelines utilizing R and tidyverse; proven capability in ensuring GDPR-compliant handling of 143,000+ patient records; implementation of config-driven architectures enabling systematic maintainability and accessibility for non-programmers.
-    \item \textbf{Biostatistics \& Data Analysis:} Capability in multivariate analysis applications including PCA and ANOVA; proficiency in deploying robust machine learning workflows leveraging tidymodels; experienced in designing interactive data visualizations with R Shiny and Plotly and formulating statistical reporting tailored for clinical governance boards.
-    \item \textbf{Scientific Computing \& HPC:} Strong foundation in high-performance Python frameworks including Google JAX mapping to TPU/GPU parallelization architectures; comprehensive background in Fortran-to-Python model translation, as well as optimizing large-scale data processing workflows using NetCDF and HDF5 within Linux high-performance computing clusters.
-\end{itemize}
+My technical foundation stems from a PhD in Astrochemistry and several years of post-doctoral experience in scientific computing, complemented by recent specialisation in bioinformatics and biostatistics. I pair precise data modelling with deep R and tidyverse expertise. I also develop reproducible, high-throughput analysis workflows using Nextflow and Bioconductor. I use these tools to build and maintain auditable analysis pipelines for clinical registries and research data.
 
-My extensive academic training, enhanced by targeted bioinformatics and biostatistics qualification courses at CQ Beratung+Bildung (encompassing Next-Generation Sequencing, Nextflow, and Bioconductor), provides me with a versatile foundation equipped to solve rigorous quantitative challenges and apply computational discipline in clinical environments. I am available starting mid-April 2026 and am very eager to translate computational rigor into actionable clinical insights for your team.
-
-I look forward to discussing my qualifications with you during a personal interview.
+I am available from mid-April 2026. My salary expectation is [PLATZHALTER --- bitte ausf\"ullen]. I look forward to discussing in a personal interview how my qualifications can directly support your team.
 
 Sincerely
 
