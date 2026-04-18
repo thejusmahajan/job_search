@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  10 MAR 2026 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  11 APR 2026 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -159,7 +159,7 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count198
 \l__pdf_internal_box=\box51
 )
-No file cover_letter_octapharma.aux.
+(./cover_letter_octapharma.aux)
 \openout1 = `cover_letter_octapharma.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -178,6 +178,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 \c@mv@tabular=\count199
 \c@mv@boldtabular=\count266
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -266,8 +267,8 @@ Package pdftex.def Info: thejus signature.jpg  used on input line 62.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./thejus signature.jpg>] [
 2] (./cover_letter_octapharma.aux) ) 
 Here is how much of TeX's memory you used:
- 3801 strings out of 477290
- 66815 string characters out of 5818809
+ 3803 strings out of 477290
+ 66871 string characters out of 5818809
  1859330 words of memory out of 5000000
  23962 multiletter control sequences out of 15000+600000
  528937 words of font info for 40 fonts, out of 8000000 for 9000

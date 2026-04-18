@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  10 MAR 2026 17:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  11 APR 2026 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -784,80 +784,104 @@ nput line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input 
-line 35.
+line 34.
 
 (/usr/share/texlive/texmf-dist/tex/latex/roboto/TS1Roboto-LF.fd
 File: TS1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for TS1/Roboto-LF.
 
 )
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' aliased to
-(Font)              `TS1/Roboto-LF/regular/n' on input line 35.
+(Font)              `TS1/Roboto-LF/regular/n' on input line 34.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 35.
+(Font)              scaled to size 9.0pt on input line 34.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 35.
+(Font)              `T1/Roboto-LF/bold/n' on input line 34.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 35.
+(Font)              scaled to size 9.0pt on input line 34.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 52.
+(Font)              `T1/Roboto-LF/regular/n' on input line 54.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 52.
+(Font)              scaled to size 10.0pt on input line 54.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 52.
+(Font)              `T1/Roboto-LF/bold/n' on input line 54.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 52.
-
-Overfull \hbox (13.50844pt too wide) in paragraph at lines 52--52
-\T1/Roboto-LF/regular/n/9 in-ter-ven-tional ra-di-ol-ogy qual-ity reg-istry (De
--GIR); 143K rows $\OMS/cmsy/m/n/9 ^^B$ \T1/Roboto-LF/regular/n/9 1,920 columns.
- 
- []
-
+(Font)              scaled to size 10.0pt on input line 54.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
-2.
+4.
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-Overfull \hbox (5.94226pt too wide) in paragraph at lines 74--74
+Overfull \hbox (8.64099pt too wide) in paragraph at lines 54--54
+[]\T1/Roboto-LF/regular/n/9 Replaced 357 dep-re-cated func-tion calls across 4 
+pipeline files, mod-ernising
+ []
+
+
+Overfull \hbox (0.48375pt too wide) in paragraph at lines 54--54
+[]\T1/Roboto-LF/regular/n/9 Created the \T1/cmtt/m/n/9 degirtools \T1/Roboto-LF
+/regular/n/9 R pack-age (9 ex-ported func-tions, rox-y-gen2 docs,
+ []
+
+
+Overfull \hbox (8.12921pt too wide) in paragraph at lines 54--54
+[]\T1/Roboto-LF/regular/n/9 Wrote Tidy-mod-els teach-ing ma-te-ri-als (Quarto/G
+itHub) re-plac-ing the legacy
+ []
+
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
+vailable
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
+n input line 67.
+
+Overfull \hbox (4.20248pt too wide) in paragraph at lines 67--67
+\T1/Roboto-LF/regular/n/9 Delta Virus se-quence anal-y-sis --- au-to-mated NCBI
+ down-load, MAFFT align-
+ []
+
+
+Overfull \hbox (8.40974pt too wide) in paragraph at lines 67--67
+\T1/Roboto-LF/regular/n/9 ment, and tri-mAl trim-ming with Conda-managed de-pen
+-den-cies ([]\U/fontawesomebrands0/regular/n/9 § \T1/Roboto-LF/regular/n/9 GitH
+ub[]). 
+ []
+
+
+Overfull \hbox (5.94226pt too wide) in paragraph at lines 78--78
 []\T1/Roboto-LF/regular/n/9 Spearheaded re-search mod-el-ing evo-lu-tion-ary pr
 o-cesses in ma-rine ecosys-
  []
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
-(Font)              `T1/Roboto-LF/regular/it' on input line 92.
+(Font)              `T1/Roboto-LF/regular/it' on input line 96.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 9.0pt on input line 92.
+(Font)              scaled to size 9.0pt on input line 96.
 
-Overfull \hbox (6.13171pt too wide) in paragraph at lines 92--92
+Overfull \hbox (6.13171pt too wide) in paragraph at lines 96--96
 []\T1/Roboto-LF/regular/n/9 Model De-vel-op-ment: De-vel-oped the novel ``Cyano
 bac-te-ria Life Cy-cle'' (CLC)
  []
 
 
-Overfull \hbox (0.54956pt too wide) in paragraph at lines 104--105
+Overfull \hbox (0.54956pt too wide) in paragraph at lines 108--109
 []\T1/Roboto-LF/regular/n/9 Prepared physics con-tent for com-pet-i-tive ex-am-
 i-na-tions and coached state-
  []
 
 
-Overfull \hbox (13.51413pt too wide) in paragraph at lines 123--123
+Overfull \hbox (13.51413pt too wide) in paragraph at lines 127--127
 []\T1/Roboto-LF/bold/n/9 Université Paris-Saclay, In-sti-tute of Molec-u-lar Sc
 i-ences (ISMO) Or-say, France[] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 139--146
+Overfull \hbox (12.0pt too wide) in paragraph at lines 143--150
 [][]
  []
 
 
-Overfull \hbox (2.27165pt too wide) in paragraph at lines 157--157
-[][] 
- []
-
-
-Underfull \hbox (badness 1642) in paragraph at lines 161--161
-[]\T1/Roboto-LF/regular/n/8 Resolved a crit-i-cal data-loss er-ror by cre-at-
+Underfull \hbox (badness 1043) in paragraph at lines 161--161
+\T1/Roboto-LF/regular/n/8 Byte-level ver-i-fi-ca-tion af-ter ev-ery change via
  []
 
 
@@ -866,8 +890,8 @@ Overfull \hbox (2.27165pt too wide) in paragraph at lines 161--161
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 165--165
-\T1/Roboto-LF/regular/n/8 mul-ti-di-men-sional ar-ray op-er-a-tions, JAX/GPU
+Underfull \hbox (badness 1642) in paragraph at lines 165--165
+[]\T1/Roboto-LF/regular/n/8 Resolved a crit-i-cal data-loss er-ror by cre-at-
  []
 
 
@@ -876,79 +900,84 @@ Overfull \hbox (2.27165pt too wide) in paragraph at lines 165--165
  []
 
 
-Overfull \hbox (2.01807pt too wide) in paragraph at lines 173--173
+Underfull \hbox (badness 1354) in paragraph at lines 169--169
+\T1/Roboto-LF/regular/n/8 mul-ti-di-men-sional ar-ray op-er-a-tions, JAX/GPU
+ []
+
+
+Overfull \hbox (2.27165pt too wide) in paragraph at lines 169--169
+[][] 
+ []
+
+
+Overfull \hbox (2.01807pt too wide) in paragraph at lines 177--177
 []\T1/Roboto-LF/regular/n/8 Nextflow (DSL2), NGS Anal-y-sis, Mul-ti-ple Se-quen
 ce Align-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--189
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--193
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
+Underfull \hbox (badness 10000) in paragraph at lines 194--197
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/img-000.jpg>]
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
-vailable
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 199.
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 
-Overfull \hbox (6.80371pt too wide) in paragraph at lines 200--200
+ []
+
+
+Overfull \hbox (6.80371pt too wide) in paragraph at lines 204--204
 []\T1/Roboto-LF/regular/n/8 Nextflow (DSL2) pipeline for vi-ral se-quence anal-
 y-sis: NCBI
  []
 
 
-Overfull \hbox (15.63771pt too wide) in paragraph at lines 200--200
+Overfull \hbox (15.63771pt too wide) in paragraph at lines 204--204
 \T1/Roboto-LF/regular/n/8 En-trez down-load, MAFFT align-ment, tri-mAl trim-min
 g, Conda-
  []
 
 
-Overfull \hbox (3.88084pt too wide) in paragraph at lines 203--203
+Overfull \hbox (3.88084pt too wide) in paragraph at lines 207--207
 []\T1/Roboto-LF/bold/n/9 JAX/TPU High-Performance Sim-u-la-tor \TS1/Roboto-LF/r
 egular/n/9 ˆ []\U/fontawesomebrands0/regular/n/9 § \T1/Roboto-LF/regular/n/9 Gi
 tHub[] 
  []
 
 
-Overfull \hbox (4.47894pt too wide) in paragraph at lines 204--204
+Overfull \hbox (4.47894pt too wide) in paragraph at lines 208--208
 \T1/Roboto-LF/regular/n/8 chi-tec-ture us-ing Google JAX. En-gi-neered branch-l
 ess, vec-
  []
 
 
-Overfull \hbox (6.05383pt too wide) in paragraph at lines 212--212
+Overfull \hbox (6.05383pt too wide) in paragraph at lines 216--216
 \T1/Roboto-LF/regular/n/8 plant-ing data in Berlin us-ing Python, Pan-das, and 
 Seaborn. 
  []
 
-<thejus signature.jpg, id=32, 421.575pt x 120.45pt>
+<thejus signature.jpg, id=33, 421.575pt x 120.45pt>
 File: thejus signature.jpg Graphic file (type jpg)
 <use thejus signature.jpg>
-Package pdftex.def Info: thejus signature.jpg  used on input line 233.
+Package pdftex.def Info: thejus signature.jpg  used on input line 237.
 (pdftex.def)             Requested size: 99.58475pt x 28.45274pt.
 [2 <./thejus signature.jpg>] (./cv_erlangen.aux)
 Package rerunfilecheck Info: File `cv_erlangen.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25266 strings out of 477290
- 496447 string characters out of 5818809
- 1894330 words of memory out of 5000000
- 45033 multiletter control sequences out of 15000+600000
- 576327 words of font info for 77 fonts, out of 8000000 for 9000
+ 25268 strings out of 477290
+ 496468 string characters out of 5818809
+ 1897330 words of memory out of 5000000
+ 45034 multiletter control sequences out of 15000+600000
+ 576640 words of font info for 78 fonts, out of 8000000 for 9000
  417 hyphenation exceptions out of 8191
  99i,12n,94p,464b,813s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc}{/usr/s
@@ -964,12 +993,12 @@ ontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 ype1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/g
 oogle/roboto/Roboto-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/googl
 e/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb
->
-Output written on cv_erlangen.pdf (2 pages, 212006 bytes).
+msfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on cv_erlangen.pdf (2 pages, 242428 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -58,6 +58,7 @@ August 2025 -- Present
 \item[-] Bioinformatics databases (NCBI, Biopython, SQL).
 \item[-] Sequence analysis, structural bioinformatics, and NGS analysis (Nextflow, Galaxy).
 \item[-] Applied biostatistics with real and simulated patient datasets (R/Bioconductor, ANOVA, PCA, HCA, survival analysis).
+\item[-] Capstone: Built a reproducible Nextflow (DSL2) pipeline for Hepatitis Delta Virus sequence analysis --- automated NCBI download, MAFFT alignment, and trimAl trimming with Conda-managed dependencies (\href{https://github.com/thejusmahajan/hepatitis-delta-pipeline}{\faGithub\ GitHub}).
 \end{itemize}
 \vspace*{.1in}
 
@@ -67,9 +68,13 @@ August 2025 -- Present
 \item[] Internship -- Machine Learning in R\\
 February 2026 -- April 2026
 \vspace*{.1in}
-\item[-] Implementation of Machine Learning workflows using the Tidymodels framework in R.
-\item[-] Supervised by Dr. Andreas Busjahn (HealthTwiSt GmbH).
-\item[-] Practical application of bioinformatics and biostatistical analysis skills.
+\item[-] Refactored a monolithic 1,834-line R data pipeline (tidyverse) for Germany's interventional radiology quality registry (DeGIR); 143,000+ patient records from \textasciitilde300 clinics. Reduced to 1,348 lines ($-$26.5\%) with byte-identical output verified via \texttt{identical()}.
+\item[-] Externalised 257 hard-coded correction rules into 8 configuration CSV files, enabling non-programmer editing of business rules.
+\item[-] Replaced 357 deprecated function calls across 4 pipeline files, modernising the codebase to current tidyverse standards.
+\item[-] Created the \texttt{degirtools} R package (9 exported functions, roxygen2 docs, \texttt{devtools::check()} passing) by extracting reusable logic from a 767-line helper file.
+\item[-] Discovered 2 pre-existing bugs through systematic code analysis; documented both and preserved original behaviour for supervisor review --- demonstrating production-code discipline.
+\item[-] Built an interactive R Shiny dashboard (6 modules: overview, interventions, complications, radiation doses, success rates, about) using plotly, DT, and bslib. Deployed to shinyapps.io with GDPR-safe synthetic data.
+\item[-] Wrote Tidymodels teaching materials (Quarto/GitHub) replacing the legacy caret framework for ML workflows in R.
 \end{itemize}
 \vspace*{.1in}
 
@@ -81,6 +86,7 @@ May 2025 -- October 2025
 \vspace*{.1in}
 \item[-] Spearheaded research modeling evolutionary processes in marine environments.
 \item[-] Simulated long-term impacts of environmental changes on ecosystems.
+\item[-] Finalised the computational modelling framework and prepared the simulation data for peer-reviewed publication.
 \end{itemize}
 \vspace*{.1in}
 
@@ -123,7 +129,7 @@ CGPA: 8.2/10
 \section{\sc Skills \& Competencies}
 
 \begin{tabular}{@{}p{1.5in}p{4in}}
-{\bf Programming:} & Python (Pandas, NumPy, Scikit-learn), R (Bioconductor, Tidymodels, ggplot2), Fortran, SQL, BASH\\[1ex]
+{\bf Programming:} & Python (Pandas, NumPy, Scikit-learn), R (Bioconductor, Tidymodels, ggplot2, R Shiny, devtools/roxygen2), Fortran, SQL, BASH\\[1ex]
 {\bf Bioinformatics:} & NGS Analysis, Galaxy, Sequence Alignment, Structural Bioinformatics, Nextflow\\[1ex]
 {\bf Biostatistics:} & Multivariate Analysis, PCA, ANOVA, Dimensionality Reduction, Markov Chains\\[1ex]
 {\bf Data Analysis:} & Large dataset processing (NetCDF, HDF5), Data visualization, Pipeline development\\[1ex]

@@ -22,8 +22,7 @@
 \hspace{0.5cm}
 \faGraduationCap\ \ \href{https://scholar.google.com/citations?user=PJkZwAwAAAAJ}{Google Scholar}
 }\par
-\vspace{0.3cm}
-
+\vspace{0.1cm}
 \begin{paracol}{2}
 
 % ==============================================
@@ -45,22 +44,26 @@
              {Berlin, Germany}
              {Clinical data research and development under Dr.~Andreas Busjahn
              \begin{itemize}
-                 \item Refactored a 1,834-line medical data pipeline (R/tidyverse) for Germany's interventional radiology quality registry (DeGIR); 143K rows $\times$ 1,920 columns.
-                 \item Externalized 257 hardcoded rules into 8 config files; 26.5\% code reduction with byte-level output verification (\texttt{identical()}).
-                 \item Identified 2 latent bugs through systematic code analysis; documented without altering pipeline behavior.
-                 \item Machine Learning workflows using the Tidymodels framework in R.
-             \end{itemize}}
+                   \item Refactored a monolithic 1,834-line R data pipeline (tidyverse) for Germany's interventional radiology quality registry (DeGIR); 143,000+ patient records from \textasciitilde300 clinics. Reduced to 1,348 lines ($-$26.5\%) with byte-identical output verified via \texttt{identical()}.
+                   \item Externalised 257 hard-coded correction rules into 8 configuration CSV files, enabling non-programmer editing of business rules.
+                   \item Replaced 357 deprecated function calls across 4 pipeline files, modernising the codebase to current tidyverse standards.
+                   \item Created the \texttt{degirtools} R package (9 exported functions, roxygen2 docs, \texttt{devtools::check()} passing) by extracting reusable logic from a 767-line helper file.
+                   \item Discovered 2 pre-existing bugs through systematic code analysis; documented both and preserved original behaviour for supervisor review --- demonstrating production-code discipline.
+                   \item Built an interactive R Shiny dashboard (6 modules: overview, interventions, complications, radiation doses, success rates, about) using plotly, DT, and bslib. Deployed to shinyapps.io with GDPR-safe synthetic data.
+                   \item Wrote Tidymodels teaching materials (Quarto/GitHub) replacing the legacy caret framework for ML workflows in R.
+               \end{itemize}}
 
 \cvexperience{Further Training -- Bioinformatics and Biostatistics}
              {CQ Beratung + Bildung GmbH}
              {08/2025 - 02/2026}
              {Berlin, Germany}
              {Application-related Bioinformatics and Biostatistics
-             \begin{itemize}
+             \begin{itemize}\setlength{\itemsep}{0.05em}
                  \item Programming methodology: Shell (BASH), Python (object-oriented), R.
                  \item Bioinformatics databases (NCBI, Biopython, SQL) and sequence analysis.
                  \item NGS analysis pipelines (Nextflow, Galaxy); structural bioinformatics.
                  \item Clinical biostatistics (R/Bioconductor, ANOVA, PCA, HCA, survival analysis); GDPR/BDSG compliance.
+                 \item Capstone: Built a reproducible Nextflow (DSL2) pipeline for Hepatitis Delta Virus sequence analysis --- automated NCBI download, MAFFT alignment, and trimAl trimming with Conda-managed dependencies (\href{https://github.com/thejusmahajan/hepatitis-delta-pipeline}{\faGithub\ GitHub}).
              \end{itemize}}
 
 \cvexperience{Guest Scientist}
@@ -71,6 +74,7 @@
              \begin{itemize}
                  \item Spearheaded research modeling evolutionary processes in marine ecosystems.
                  \item Applied advanced computational techniques to simulate long-term environmental impacts.
+                 \item Finalised the computational modelling framework and prepared the simulation data for peer-reviewed publication.
              \end{itemize}}
 
 \cvexperience{Job Search \& German Language Learning}
@@ -154,7 +158,7 @@ elisa.schaum@uni-hamburg.de & \\
 
 \cvstrength{\faStar}
            {Data Pipeline Engineering}
-           {Refactored a production medical data pipeline (1,834 lines, 143K rows), achieving 26.5\% code reduction with zero behavioral regression. Byte-level verification after every change.}
+           {Refactored a production data pipeline (1,834 lines, 143K records, \textasciitilde300 clinics) with 26.5\% code reduction. Built degirtools R package. Byte-level verification after every change via \texttt{identical()}.}
 
 \cvstrength{\faLightbulb}
            {Complex Problem-Solving}
@@ -176,7 +180,7 @@ elisa.schaum@uni-hamburg.de & \\
          {Deep Learning Foundations (TensorFlow, PyTorch concepts via JAX), Multivariate Analysis, PCA, Clustering, Scikit-learn, Tidymodels}
 
 \cvskills{Data Engineering}
-         {Hardware Acceleration (TPU/GPU), Large dataset processing (HDF5, NetCDF), Pipeline development}
+         {Hardware Acceleration (TPU/GPU), Large dataset processing (HDF5, NetCDF), Pipeline development, R Shiny, devtools/roxygen2}
 
 \cvskills{Tools}
          {Linux/Unix, Git, HPC clusters, Conda}
@@ -225,13 +229,14 @@ Forschungszentrum J\"ulich\\[0.3cm]
 \cvlanguage{Tamil}{Proficient}{4}
 \cvlanguage{Hindi}{Intermediate}{2}
 
-\end{paracol}
 
+% --- Signature (inside right column) ---
 \vspace{1.0cm}
 \begin{flushleft}
-Hamburg, 10 March 2026\\[0.3cm]
+Hamburg, 11 April 2026\\[0.3cm]
 \includegraphics[height=1.0cm]{thejus signature.jpg}\\[0.1cm]
 \textbf{Dr. Thejus Mahajan}
 \end{flushleft}
 
+\end{paracol}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  5 FEB 2026 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  11 APR 2026 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -707,101 +707,368 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 100.
 
-Overfull \hbox (1.15005pt too wide) in paragraph at lines 101--102
-[]\T1/lato-TLF/m/n/10.95 Introduction to pro-gram-ming and Python, in-clud-ing 
-Shell (BASH),
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101         \item I
+                     ntroduction to programming and Python, including Shell ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101         \item I
+                     ntroduction to programming and Python, including Shell ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101         \item I
+                     ntroduction to programming and Python, including Shell ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
+ine 101.
+(/usr/share/texlive/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
+File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 101.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102         \item B
+                     ioinformatics and databases, including NCBI, Biopython,...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102         \item B
+                     ioinformatics and databases, including NCBI, Biopython,...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102         \item B
+                     ioinformatics and databases, including NCBI, Biopython,...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103         \item A
+                     pplied bioinformatics, including sequence analysis and ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103         \item A
+                     pplied bioinformatics, including sequence analysis and ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103         \item A
+                     pplied bioinformatics, including sequence analysis and ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104         \item A
+                     pplied biostatistics, including statistical analysis us...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104         \item A
+                     pplied biostatistics, including statistical analysis us...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104         \item A
+                     pplied biostatistics, including statistical analysis us...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105         \item C
+                     apstone: Built a reproducible Nextflow (DSL2) pipeline ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105         \item C
+                     apstone: Built a reproducible Nextflow (DSL2) pipeline ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105         \item C
+                     apstone: Built a reproducible Nextflow (DSL2) pipeline ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
+ input line 105.
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10.95> n
+ot available
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
+n input line 105.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106     \end{itemize}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (14.89081pt too wide) in paragraph at lines 100--106
+\T1/lato-TLF/m/n/10.95 ming method-ol-ogy, and object-oriented pro-gram-ming in
+ Python.
  []
 
 
-Overfull \hbox (4.65335pt too wide) in paragraph at lines 118--119
+Overfull \hbox (5.89047pt too wide) in paragraph at lines 100--106
+[]\T1/lato-TLF/m/n/10.95 Bioinformatics and databases, in-clud-ing NCBI, Biopy-
+thon, web
+ []
+
+
+Overfull \hbox (54.28001pt too wide) in paragraph at lines 100--106
+\T1/lato-TLF/m/n/10.95 ti-vari-ate statis-tics, ANOVA, PCA, HCA, work-flows us-
+ing R/Bioconductor,
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 110.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 110.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 110.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+10.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+Overfull \hbox (1.3383pt too wide) in paragraph at lines 112--113
+[]\T1/lato-TLF/m/n/10.95 Replaced 357 dep-re-cated func-tion calls across 4 pip
+eline files,
+ []
+
+
+Overfull \hbox (28.31207pt too wide) in paragraph at lines 113--114
+\T1/lato-TLF/m/n/10.95 rox-y-gen2 docs, \T1/cmtt/m/n/10.95 devtools::check() \T
+1/lato-TLF/m/n/10.95 pass-ing) by ex-tract-ing reusable
+ []
+
+
+Overfull \hbox (1.0295pt too wide) in paragraph at lines 114--115
+[]\T1/lato-TLF/m/n/10.95 Discovered 2 pre-existing bugs through sys-tem-atic co
+de anal-
+ []
+
+
+Overfull \hbox (4.76454pt too wide) in paragraph at lines 116--117
+[]\T1/lato-TLF/m/n/10.95 Wrote Tidy-mod-els teach-ing ma-te-ri-als (Quarto/GitH
+ub) re-plac-
+ []
+
+
+Overfull \hbox (4.65335pt too wide) in paragraph at lines 123--124
 []\T1/lato-TLF/m/n/10.95 Applied ad-vanced com-pu-ta-tional tech-niques to sim-
 u-late the long-
  []
 
 
-Overfull \hbox (1.02509pt too wide) in paragraph at lines 125--126
+Overfull \hbox (1.02509pt too wide) in paragraph at lines 130--131
 []\T1/lato-TLF/m/n/10.95 High-performance com-put-ing: En-gi-neered mod-els in 
 For-tran and
  []
 
 
-Overfull \hbox (1.47227pt too wide) in paragraph at lines 126--127
+Overfull \hbox (1.47227pt too wide) in paragraph at lines 131--132
 []\T1/lato-TLF/m/n/10.95 Statistical anal-y-sis and vi-su-al-iza-tion of eco-lo
 g-i-cal time-series data
  []
 
 
-Overfull \hbox (2.13927pt too wide) in paragraph at lines 151--153
+Overfull \hbox (2.13927pt too wide) in paragraph at lines 156--158
 \T1/lato-TLF/m/n/10.95 Developed and im-ple-mented a novel
  []
 
 
-Overfull \hbox (4.60623pt too wide) in paragraph at lines 159--161
+Overfull \hbox (4.60623pt too wide) in paragraph at lines 164--166
 \T1/lato-TLF/m/n/10.95 Successfully bridged phys-i-cal sci-ence
  []
 
 
-Overfull \hbox (14.2226pt too wide) in paragraph at lines 159--161
+Overfull \hbox (14.2226pt too wide) in paragraph at lines 164--166
 \T1/lato-TLF/m/n/10.95 ex-per-tise with mod-ern bi-o-log-i-cal work-
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 178.
+(Font)              scaled to size 10.0pt on input line 183.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 179.
+(Font)              scaled to size 10.0pt on input line 184.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 181.
+nput line 186.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 199.
+(Font)              scaled to size 24.88pt on input line 204.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 199.
+(Font)              scaled to size 24.88pt on input line 204.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 199.
+(Font)              scaled to size 14.4pt on input line 204.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 199.
+nput line 204.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
-ine 199.
-
-(/usr/share/texlive/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
-File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 199.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
-nput line 199.
+nput line 204.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2] (./cv_hamburg.aux)
+] [2] [3]
+(./cv_hamburg.aux)
 Package rerunfilecheck Info: File `cv_hamburg.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24307 strings out of 477290
- 470366 string characters out of 5818809
- 1887330 words of memory out of 5000000
- 44123 multiletter control sequences out of 15000+600000
- 782229 words of font info for 63 fonts, out of 8000000 for 9000
+ 24366 strings out of 477290
+ 471776 string characters out of 5818809
+ 1889330 words of memory out of 5000000
+ 44167 multiletter control sequences out of 15000+600000
+ 785303 words of font info for 73 fonts, out of 8000000 for 9000
  417 hyphenation exceptions out of 8191
  102i,12n,104p,603b,973s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/
-texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}{/usr/share/texlive/texm
-f-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist
-/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvi
-ps/fontawesome5/fa5free2.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/
-fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typo
-land/lato/Lato-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/l
-ato/Lato-Regular.pfb>
-Output written on cv_hamburg.pdf (2 pages, 120742 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/te
+xmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts
+/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/d
+vips/fontawesome5/fa5free3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/f
+ontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_
+rt66h3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2
+.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome
+5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontaweso
+me5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/typol
+and/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato
+/Lato-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-
+Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on cv_hamburg.pdf (3 pages, 163208 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
+ 80 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

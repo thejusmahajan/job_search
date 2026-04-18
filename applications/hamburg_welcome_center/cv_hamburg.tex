@@ -97,19 +97,24 @@
     \sectiontitle{Experience}
     
     \jobitem{Further Training -- Bioinformatics}{CQ Beratung + Bildung}{Berlin}{08/2025 -- Present}
-    \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt,label=\textcolor{maincol}{\tiny\faCircle}]
+    \begin{itemize}\setlength{\itemsep}{0.05em}[leftmargin=*,noitemsep,topsep=0pt,label=\textcolor{maincol}{\tiny\faCircle}]
         \item Introduction to programming and Python, including Shell (BASH), programming methodology, and object-oriented programming in Python.
         \item Bioinformatics and databases, including NCBI, Biopython, web services, and database management with SQL.
         \item Applied bioinformatics, including sequence analysis and strategies, structural bioinformatics, software for structure visualization, and NGS analysis using Nextflow and Galaxy.
         \item Applied biostatistics, including statistical analysis using R, descriptive and multivariate statistics, ANOVA, PCA, HCA, workflows using R/Bioconductor, and Markov chain implementation.
+        \item Capstone: Built a reproducible Nextflow (DSL2) pipeline for Hepatitis Delta Virus sequence analysis --- automated NCBI download, MAFFT alignment, and trimAl trimming with Conda-managed dependencies (\href{https://github.com/thejusmahajan/hepatitis-delta-pipeline}{\faGithub\ GitHub}).
     \end{itemize}
     
     \jobitem{Internship -- Machine Learning in R}{HealthTwiSt GmbH}{Berlin}{02/2026 -- 04/2026}
-    \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt,label=\textcolor{maincol}{\tiny\faCircle}]
-        \item Implementation of Machine Learning workflows using the Tidymodels framework in R.
-        \item Supervised by Dr. Andreas Busjahn.
-        \item Practical application of bioinformatics and biostatistical analysis skills.
-    \end{itemize}
+    \begin{itemize}
+                   \item Refactored a monolithic 1,834-line R data pipeline (tidyverse) for Germany's interventional radiology quality registry (DeGIR); 143,000+ patient records from \textasciitilde300 clinics. Reduced to 1,348 lines ($-$26.5\%) with byte-identical output verified via \texttt{identical()}.
+                   \item Externalised 257 hard-coded correction rules into 8 configuration CSV files, enabling non-programmer editing of business rules.
+                   \item Replaced 357 deprecated function calls across 4 pipeline files, modernising the codebase to current tidyverse standards.
+                   \item Created the \texttt{degirtools} R package (9 exported functions, roxygen2 docs, \texttt{devtools::check()} passing) by extracting reusable logic from a 767-line helper file.
+                   \item Discovered 2 pre-existing bugs through systematic code analysis; documented both and preserved original behaviour for supervisor review --- demonstrating production-code discipline.
+                   \item Built an interactive R Shiny dashboard (6 modules: overview, interventions, complications, radiation doses, success rates, about) using plotly, DT, and bslib. Deployed to shinyapps.io with GDPR-safe synthetic data.
+                   \item Wrote Tidymodels teaching materials (Quarto/GitHub) replacing the legacy caret framework for ML workflows in R.
+               \end{itemize}
     
     \jobitem{Guest Scientist}{Helmholtz-Zentrum Hereon}{Geesthacht}{05/2025 -- 10/2025}
     \textbf{Computational Biologist \& Systems Modeler}
