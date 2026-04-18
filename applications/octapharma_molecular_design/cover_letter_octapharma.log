@@ -188,14 +188,14 @@ LaTeX Font Info:    ... okay on input line 12.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
-* v-part:(T,H,B)=(128.0374pt, 660.10394pt, 56.9055pt)
+* v-part:(T,H,B)=(99.58464pt, 702.78308pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=469.47049pt
-* \textheight=660.10394pt
+* \textheight=702.78308pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
-* \topmargin=18.76741pt
+* \topmargin=-9.68535pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=9.0pt
@@ -261,28 +261,36 @@ arken
 File: thejus signature.jpg Graphic file (type jpg)
 <use thejus signature.jpg>
 Package pdftex.def Info: thejus signature.jpg  used on input line 62.
-(pdftex.def)             Requested size: 119.50041pt x 34.14322pt.
+(pdftex.def)             Requested size: 99.58475pt x 28.45274pt.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 66.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 66.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
+(Font)              `T1/Roboto-LF/bold/n' on input line 66.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 8.0pt on input line 66.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./thejus signature.jpg>] [
-2] (./cover_letter_octapharma.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./thejus signature.jpg>] (
+./cover_letter_octapharma.aux) ) 
 Here is how much of TeX's memory you used:
- 3803 strings out of 477290
- 66871 string characters out of 5818809
- 1859330 words of memory out of 5000000
- 23962 multiletter control sequences out of 15000+600000
- 528937 words of font info for 40 fonts, out of 8000000 for 9000
+ 3809 strings out of 477290
+ 67001 string characters out of 5818809
+ 1858330 words of memory out of 5000000
+ 23966 multiletter control sequences out of 15000+600000
+ 539308 words of font info for 44 fonts, out of 8000000 for 9000
  417 hyphenation exceptions out of 8191
- 57i,6n,80p,951b,305s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dv
-ips/roboto/rbto_b5rac7.enc}</usr/share/texlive/texmf-dist/fonts/type1/google/ro
-boto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/R
-oboto-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Robot
-o-Regular.pfb>
-Output written on cover_letter_octapharma.pdf (2 pages, 87907 bytes).
+ 57i,5n,80p,699b,305s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
+roboto/rbto_b5rac7.enc}</usr/share/texlive/texmf-dist/fonts/type1/google/roboto
+/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Robot
+o-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Re
+gular.pfb>
+Output written on cover_letter_octapharma.pdf (1 page, 87294 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 25 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

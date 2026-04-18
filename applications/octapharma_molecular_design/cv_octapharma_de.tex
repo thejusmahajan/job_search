@@ -1,0 +1,233 @@
+\documentclass{thejus_cv}
+\usepackage[hidelinks]{hyperref}
+
+\begin{document}
+
+% --- HEADER ---
+\cvheader{Thejus Mahajan Ph.D.}
+         {Computational Biologist \& Data Scientist}
+         {+49-15259697629}
+         {thejus.mahajan@uni-hamburg.de}
+         {\href{https://thejusmahajan.github.io}{thejusmahajan.github.io}}
+         {Hamburg, Germany}
+
+% Extra contact row for details and links
+\vspace{-0.5cm}
+{\small\color{white}
+\faCalendar\ \ *30.09.1992 (Talikulam, Indien) \hspace{0.5cm} \faUser\ \ Verheiratet
+}\par
+\vspace{0.1cm}
+{\small\color{white}
+\faLinkedin\ \ \href{https://www.linkedin.com/in/thejusmahajan/}{linkedin.com/in/thejusmahajan}
+\hspace{0.5cm}
+\faGraduationCap\ \ \href{https://scholar.google.com/citations?user=PJkZwAwAAAAJ}{Google Scholar}
+}\par
+\vspace{0.1cm}
+\begin{paracol}{2}
+
+% ==============================================
+% LEFT COLUMN
+% ==============================================
+
+\cvsection{Profil}
+\begin{itemize}[label=\textbullet, leftmargin=1em]
+    \item \textbf{Schwerpunkt:} Gro{\ss}angelegte NGS-Datenanalyse, Bioinformatik-Pipeline-Architektur (Nextflow) und statistische Modellierung f\"ur Sequenzdiversit\"at.
+    \item \textbf{Kernkompetenzen:} Python (Pandas, JAX, Scikit-learn), R (Bioconductor, Tidymodels), BASH.
+    \item \textbf{Aktuelles Ziel:} Rechnergest\"utzter Anker in der biopharmazeutischen F\&E zum Aufbau skalierbarer NGS-Workflows, die Hit-Identifikation und Kandidatenoptimierung vorantreiben.
+\end{itemize}
+
+\cvsection{Berufserfahrung}
+
+\cvexperience{Praktikum -- Bioinformatik \& Datenpipeline-Engineering}
+             {HealthTwiSt GmbH}
+             {02/2026 - 04/2026}
+             {Berlin, Deutschland}
+             {Klinische Datenforschung und -entwicklung unter Dr.~Andreas Busjahn
+             \begin{itemize}
+                   \item Refactoring einer monolithischen 1.834-Zeilen R-Datenpipeline (tidyverse) f\"ur das interventionell-radiologische Qualit\"atsregister Deutschlands (DeGIR); 143.000+ Patientendatens\"atze von \textasciitilde300 Kliniken. Reduktion auf 1.348 Zeilen ($-$26,5\%) mit byte-identischer Ausgabe, verifiziert via \texttt{identical()}.
+                   \item Externalisierung von 257 hardcodierten Korrekturregeln in 8 Konfigurations-CSV-Dateien; erm\"oglicht Bearbeitung durch Nicht-Programmierer.
+                   \item Ersetzung von 357 veralteten Funktionsaufrufen in 4 Pipeline-Dateien; Modernisierung auf aktuelle tidyverse-Standards.
+                   \item Erstellung des R-Pakets \texttt{degirtools} (9 exportierte Funktionen, roxygen2-Dokumentation, \texttt{devtools::check()} bestanden) durch Extraktion wiederverwendbarer Logik aus einer 767-Zeilen-Hilfsdatei.
+                   \item Entdeckung von 2 vorbestehenden Fehlern durch systematische Codeanalyse; dokumentiert und originales Verhalten f\"ur Supervisor-Review beibehalten --- Demonstration von Produktionscode-Disziplin.
+                   \item Aufbau eines interaktiven R-Shiny-Dashboards (6 Module: \"Ubersicht, Interventionen, Komplikationen, Strahlendosen, Erfolgsraten, Info) mit plotly, DT und bslib. Deployment auf shinyapps.io mit DSGVO-konformen synthetischen Daten.
+                   \item Erstellung von Tidymodels-Lehrmaterialien (Quarto/GitHub) als Ersatz f\"ur das veraltete caret-Framework f\"ur ML-Workflows in R.
+               \end{itemize}}
+
+\cvexperience{Weiterbildung -- Bioinformatik und Biostatistik}
+             {CQ Beratung + Bildung GmbH}
+             {08/2025 - 02/2026}
+             {Berlin, Deutschland}
+             {Anwendungsorientierte Bioinformatik und Biostatistik
+             \begin{itemize}\setlength{\itemsep}{0.05em}
+                 \item Programmiermethodik: Shell (BASH), Python (objektorientiert), R.
+                 \item Bioinformatik-Datenbanken (NCBI, Biopython, SQL) und Sequenzanalyse.
+                 \item NGS-Analysepipelines (Nextflow, Galaxy); Strukturbioinformatik.
+                 \item Klinische Biostatistik (R/Bioconductor, ANOVA, PCA, HCA, Survival-Analyse); DSGVO/BDSG-Konformit\"at.
+                 \item Abschlussprojekt: Erstellung einer reproduzierbaren Nextflow-(DSL2)-Pipeline f\"ur die Sequenzanalyse des Hepatitis-Delta-Virus --- automatisierter NCBI-Download, MAFFT-Alignment und trimAl-Trimming mit Conda-verwalteten Abh\"angigkeiten (\href{https://github.com/thejusmahajan/hepatitis-delta-pipeline}{\faGithub\ GitHub}).
+             \end{itemize}}
+
+\cvexperience{Gastwissenschaftler}
+             {Helmholtz-Zentrum Hereon, \"Okosystemmodellierung}
+             {05/2025 - 10/2025}
+             {Geesthacht, Deutschland}
+             {Computational Biologist \& Systemmodellierer
+             \begin{itemize}
+                 \item Leitung der Forschung zur Modellierung evolution\"arer Prozesse in Meeresökosystemen.
+                 \item Anwendung fortgeschrittener Rechenmethoden zur Simulation langfristiger Umweltauswirkungen.
+                 \item Fertigstellung des rechnergest\"utzten Modellierungs-Frameworks und Aufbereitung der Simulationsdaten f\"ur eine Peer-Review-Publikation.
+             \end{itemize}}
+
+\cvexperience{Jobsuche \& Deutschkurs}
+             {Hamburg, Deutschland}
+             {02/2025 - 04/2025}
+             {Hamburg, Deutschland}
+             {Aktive Stellensuche und Erwerb der deutschen Sprache (Goethe B1-Zertifikat).}
+
+\cvexperience{Post-doctoral Scientist}
+             {Universit\"at Hamburg, Institut f\"ur Marine \"Okosystem- und Fischereiwiss.}
+             {08/2021 - 01/2025}
+             {Hamburg, Deutschland}
+             {Meeresökosystem-Modellierung
+             \begin{itemize}
+                 \item \textit{Elternzeit von 01/2024 bis 12/2024.}
+                 \item Modellentwicklung: Entwicklung des neuartigen ``Cyanobacteria Life Cycle'' (CLC)-Modells im ERGOM-Framework f\"ur Klimaerw\"armungsprojektionen.
+                 \item Hochleistungsrechnen \& ML: Leitung der \"Ubersetzung eines Legacy-Fortran-Modells in eine hochperformante Python-Simulationsengine. Nutzung von \textbf{Google JAX}-Vektorisierung und branchless-Logik f\"ur massive Parallelisierung (direkte Kompatibilit\"at mit \textbf{TPUs und GPUs}).
+                 \item Diese Architektur bildet eine starke Grundlage in Tensoroperationen, die Deep-Learning-Frameworks wie \textbf{PyTorch} und \textbf{TensorFlow} zugrunde liegen.
+             \end{itemize}}
+
+\cvexperience{Berufliche Neuorientierung}
+             {Kerala, Indien}
+             {04/2021 - 07/2021}
+             {Kerala, Indien}
+             {Umzug von Indien nach Deutschland und aktive Stellensuche.}
+
+\cvexperience{Physik-Dozent}
+             {Tutorwaves Solutions Inc / Freiberuflich}
+             {10/2018 - 03/2021}
+             {Kerala, Indien}
+             {Erstellung von Physikinhalten f\"ur Aufnahmepr\"ufungen und Coaching von Schachmannschaften auf Landesebene.}
+
+\cvexperience{Doktorand in Astrochemie}
+             {Universit\'e Paris-Saclay}
+             {10/2015 - 09/2018}
+             {Orsay, Frankreich}
+             {Leitung von Atomkollisionsexperimenten, Datenanalyse und Ergebnismodellierung.
+             \begin{itemize}
+                 \item Erfassung und Verarbeitung von Terabytes an Rohdaten aus Tandem-Teilchenbeschleunigerexperimenten.
+                 \item C++ Signalverarbeitung, Algorithmenentwicklung und molekulare Fragmentierungsmodellierung (KIDA-Datenbank).
+             \end{itemize}}
+
+
+\cvsection{Ausbildung}
+
+\cvexperience{Promotion in Astrochemie}
+             {Universit\'e Paris-Saclay, Institute of Molecular Sciences (ISMO) Orsay, Frankreich}
+             {09/2015 - 09/2018}
+             {Orsay, Frankreich}
+             {}
+
+\cvexperience{M.Sc. in Physik}
+             {National Institute of Technology Calicut, Indien}
+             {07/2012 - 01/2015}
+             {Calicut, Indien}
+             {}
+
+\cvexperience{B.Sc. in Physik}
+             {University of Calicut, Indien}
+             {06/2009 - 04/2012}
+             {Thrissur, Indien}
+             {}
+
+
+\switchcolumn
+
+% ==============================================
+% RIGHT COLUMN
+% ==============================================
+
+\cvsection{St\"arken}
+
+\cvstrength{\faStar}
+           {Datenpipeline-Engineering}
+           {Refactoring einer Produktions-Datenpipeline (1.834 Zeilen, 143K Datens\"atze, \textasciitilde300 Kliniken) mit 26,5\% Codereduktion. Erstellung des R-Pakets degirtools. Byte-Level-Verifizierung nach jeder \"Anderung via \texttt{identical()}.}
+
+\cvstrength{\faLightbulb}
+           {Komplexe Probleml\"osung}
+           {L\"osung eines kritischen Datenverlusts durch Erstellung einer Fortran-Simulation zur Korrektur eines falsch platzierten Teilchendetektors; Neuberechnung der Ergebnisse mittels Multisensor-Daten.}
+
+\cvstrength{\faAward}
+           {Bioinformatik \& Computational Biology}
+           {Verbindung von physikalischer Expertise mit modernen biologischen Workflows. Versiert in komplexen multidimensionalen Array-Operationen, JAX/GPU-Beschleunigung, Sequenzalignment und multivariater statistischer Modellierung mit R (Bioconductor) und Python.}
+
+\cvsection{Technische F\"ahigkeiten}
+
+\cvskills{Programmierung}
+         {Python (JAX, Pandas, NumPy, Scikit-learn, Biopython), R (Bioconductor, Tidymodels), SQL, BASH}
+
+\cvskills{Bioinformatik}
+         {NGS-Workflow-Integration, Nextflow (DSL2), Multiple Sequenz-Alignierung (MAFFT), Sequenz-Trimming (trimAl), NCBI / Entrez}
+
+\cvskills{Biostatistik \& ML}
+         {Deep-Learning-Grundlagen (TensorFlow, PyTorch-Konzepte via JAX), Multivariate Analyse, PCA, Clustering, Scikit-learn, Tidymodels}
+
+\cvskills{Dateningenieurwesen}
+         {Hardwarebeschleunigung (TPU/GPU), Verarbeitung gro{\ss, R Shiny, devtools/roxygen2}er Datens\"atze (HDF5, NetCDF), Pipeline-Entwicklung}
+
+\cvskills{Werkzeuge}
+         {Linux/Unix, Git, HPC-Cluster, Conda}
+
+
+\cvsection{Weiterbildung / Kurse}
+
+\textbf{IBM: Machine Learning with Python; Introduction to AI}\\
+{\small Coursera (in Bearbeitung)}\\[0.3cm]
+
+\textbf{High Performance Computing (HPC) Training}\\
+J\"ulich Supercomputing \textbf{Center (JSC)},\\
+Forschungszentrum J\"ulich\\[0.3cm]
+
+\textbf{MITx: 7.00x Introduction to Biology - The Secret of Life}\\
+{\small Umfassende Kursarbeit zu Genetik, Biochemie und Molekularbiologie.}\\[0.4cm]
+
+\cvsection{Ausgew\"ahlte Projekte}
+
+\textbf{Hepatitis-Delta-Virus-Pipeline} \textbullet\ \href{https://github.com/thejusmahajan/hepatitis-delta-pipeline}{\faGithub\ GitHub}\par
+{\small Nextflow (DSL2)-Pipeline f\"ur virale Sequenzdiversit\"atsanalyse: NCBI Entrez-Download, MAFFT-Alignment, trimAl-Trimming, Conda-verwaltet.}\par
+\vspace{0.3em}
+
+\textbf{JAX/TPU Hochleistungssimulator} \textbullet\ \href{https://github.com/thejusmahajan/Agent_Based_Phytoplankton_Model-IBM-Phytoplankton}{\faGithub\ GitHub}\par
+{\small Portierung eines Legacy-Fortran-Modells in eine modulare Python-Architektur mit Google JAX. Entwicklung branchless, vektorisierter Logik f\"ur massive TPU/GPU-Parallelisierung.}\par
+\vspace{0.3em}
+
+\textbf{Introduction to Tidymodels} \textbullet\ \href{https://github.com/thejusmahajan/Introduction_to_Tidymodels}{\faGithub\ GitHub}\par
+{\small Lehrskript f\"ur ML in R: recipes, parsnip, workflows und yardstick mit dem Palmer Penguins-Datensatz.}\par
+\vspace{0.3em}
+
+\textbf{Berlin Tree Analysis} \textbullet\ \href{https://github.com/thejusmahajan/berlin-tree-analysis}{\faGithub\ GitHub}\par
+{\small Interaktives Jupyter-Notebook zur Analyse von 5 Jahren Baumpflanzungsdaten mit Python, Pandas und Seaborn.}\par
+\vspace{0.4em}
+
+\cvsection{Publikationen}
+
+5 begutachtete Fachartikel \textbullet\ \href{https://scholar.google.com/citations?user=PJkZwAwAAAAJ}{\faGraduationCap\ Google Scholar Profil}
+
+\cvsection{Sprachen}
+
+\cvlanguage{Englisch}{Verhandlungssicher (C1)}{4}
+\cvlanguage{Deutsch}{B1 -- Goethe-Zertifikat}{3}
+\cvlanguage{Franz\"osisch}{Grundkenntnisse}{2}
+\cvlanguage{Malayalam}{Muttersprache}{5}
+\cvlanguage{Tamil}{Verhandlungssicher}{4}
+\cvlanguage{Hindi}{Grundkenntnisse}{2}
+
+
+% --- Signature (inside right column) ---
+\vspace{1.0cm}
+\begin{flushleft}
+Hamburg, 11. April 2026\\[0.3cm]
+\includegraphics[height=1.0cm]{thejus signature.jpg}\\[0.1cm]
+\textbf{Dr. Thejus Mahajan}
+\end{flushleft}
+
+\end{paracol}
+\end{document}

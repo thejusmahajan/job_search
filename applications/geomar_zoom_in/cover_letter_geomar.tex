@@ -1,0 +1,73 @@
+\documentclass[9pt, a4paper]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{roboto}
+\usepackage[margin=2.0cm, top=2.0cm, bottom=1.5cm]{geometry}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+\pagestyle{empty}
+
+% Sender Information
+\begin{flushleft}
+Dr. Thejus Mahajan\\
+Reventlowstra{\ss}e 17\\
+22605 Hamburg\\
++49-15259697629\\
+thejus.mahajan@uni-hamburg.de
+\end{flushleft}
+
+\vspace{0.05cm}
+
+% Date
+\begin{flushright}
+\today
+\end{flushright}
+
+\vspace{0.05cm}
+
+% Recipient
+\begin{flushleft}
+Dr. Tianfei Xue\\
+GEOMAR Helmholtz Centre for Ocean Research Kiel\\
+Biogeochemical Modelling\\
+Wischhofstra{\ss}e 1--3\\
+24148 Kiel
+\end{flushleft}
+
+\vspace{0.05cm}
+
+% Subject
+\textbf{Application as Postdoctoral Researcher (m/f/d) in Ocean-Biogeochemical Modelling --- ZOOM-IN}
+
+\vspace{0.05cm}
+
+% Salutation
+Dear Dr. Xue,
+
+I have spent over three years developing biogeochemical models for plankton dynamics within the GOTM-FABM/ERGOM framework, implementing biological parameterizations in Fortran and running climate scenario simulations. The ZOOM-IN project's goal of implementing zooplankton diel vertical migration (DVM) parameterizations within a regional ocean circulation--biogeochemical model is a natural extension of this work, and I am highly motivated to contribute my expertise to your research team.
+
+During my postdoctoral research at the University of Hamburg, I developed the ``Cyanobacteria Life Cycle'' (CLC) model within the ERGOM/GOTM-FABM framework. A key achievement was taking a published theoretical framework (Beckmann 2019) and implementing its trait-diffusion scheme within an existing ocean modelling infrastructure in Fortran. In parallel, I built a Lagrangian individual-based model (IBM) for phytoplankton dynamics incorporating stochastic processes, individual variability, and trait evolution. This experience with both Eulerian and Lagrangian approaches within a coupled physical-biogeochemical model framework prepares me directly for adapting DVM parameterizations into the CROCO-BioEBUS system.
+
+My research heavily involved conducting hindcast simulations using ERA5 data and forward projections under warming scenarios to assess ecosystem responses. I regularly executed model ensembles on HPC clusters (SLURM, JSC J\"ulich) and analyzed the resulting large NetCDF datasets using Python (NumPy, xarray). Furthermore, I bring dual competence in classical Fortran modelling and modern computational techniques, such as using Python/JAX for GPU/TPU scaling of models.
+
+Your recent work on the interplay between bottom-up and top-down controls on phytoplankton (e.g., Xue et al., \textit{Biogeosciences}, 2024), particularly how changes in the physical environment impact zooplankton grazing pressure, strongly resonates with my own findings on phytoplankton responses to environmental drivers. I am eager to extend this perspective to the Peruvian upwelling system, investigating how zooplankton DVM connects surface productivity with nitrogen loss in the oxygen minimum zone.
+
+I am currently preparing a manuscript on my IBM trait-diffusion modelling results in collaboration with Prof. Dr. Elisa Schaum (University of Hamburg) and Prof. Dr. Kai Wirtz (Helmholtz-Zentrum Hereon). I also contributed to teaching Marine Ecosystem Modelling at BSc and MSc level at the University of Hamburg.
+
+I am available to start from July 1, 2026. I have enclosed my CV, including contact details for two references, along with my certificates. I look forward to the opportunity to discuss how my background can support the ZOOM-IN project.
+
+Kind regards,
+
+\vspace{0.05cm}
+\includegraphics[height=1.0cm]{thejus signature.jpg}\\
+Dr. Thejus Mahajan
+
+\vspace{0.05cm}
+{\small\textbf{Enclosures:} Curriculum Vitae (with references), Certificates}
+
+\end{document}

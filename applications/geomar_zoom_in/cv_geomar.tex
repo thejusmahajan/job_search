@@ -1,0 +1,204 @@
+\documentclass[margin,line,pifont,palatino,courier]{res}
+\usepackage{xcolor}
+\usepackage{pifont}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{cite}
+\usepackage{graphicx}
+\textheight=10.3in
+\topmargin=-0.6in
+\usepackage{fancyhdr}
+\usepackage{bibentry}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}
+\rfoot{{\footnotesize Curriculum Vitae, Thejus Mahajan, \thepage}}
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.1in}
+      }}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.1in}}}{\end{list}}
+
+\begin{document}
+
+\name{\hphantom{sss} Dr. Thejus Mahajan \vspace*{.05in}}
+
+\begin{resume}
+
+\section{\sc Contact Information}
+
+\vspace{.02in}
+\begin{tabular}{@{}p{3.75in}p{2in}}
+ Reventlowstra{\ss}e 17 & Email: \verb+thejus.mahajan@uni-hamburg.de+\\
+ 22605 Hamburg & Ph: +49-15259697629 \\
+ Germany & \\
+ \url{https://www.linkedin.com/in/thejusmahajan/} & \url{https://scholar.google.com/citations?user=PJkZwAwAAAAJ}
+\end{tabular}
+
+\section{\sc Research Profile}
+Ocean-biogeochemical modeller with experience developing plankton dynamics models within the GOTM-FABM/ERGOM framework. Research focus on implementing biological parameterizations---including trait diffusion, individual-based population dynamics, and life-cycle processes---in coupled physical-biogeochemical models. Experienced in running climate scenario simulations (hindcast and IPCC projections) and analyzing large-scale model output. Experienced in contributing to regional-scale modelling of marine ecosystem responses under present-day and projected climate change conditions.
+
+\section{\sc Work Experience}
+
+\begin{itemize}
+\item {\bf University of Hamburg, Institute of Marine Ecosystem and Fisheries Sciences}\\
+\vspace*{-.2in}
+\item[] Post-doctoral Scientist -- Marine Ecosystem Modelling\\
+August 2021 -- January 2025
+\vspace*{.05in}
+\item[-] Developed the novel ``Cyanobacteria Life Cycle'' (CLC) model within the ERGOM/GOTM-FABM framework (Fortran). Implemented a trait-diffusion scheme (adapted from Beckmann 2019) for phytoplankton thermal adaptation.
+\item[-] Built both Eulerian and Lagrangian (Individual-Based Model) approaches for phytoplankton population dynamics, incorporating stochastic processes and trait evolution.
+\item[-] Conducted hindcast and forecast simulations using ERA5 data and projected climate scenarios (IPCC) to assess ecosystem responses.
+\item[-] Executed high-performance computing (HPC) workflows on the SLURM cluster and analyzed large NetCDF dataset ensembles using Python (NumPy, xarray).
+\item[-] Translated a Fortran continuous model into a high-performance Python engine using JAX, enabling massive GPU/TPU parallelization via vectorized, branchless operations.
+\item[-] Parental leave: 01/2024--12/2024.
+\end{itemize}
+\vspace*{.03in}
+
+\begin{itemize}
+\item {\bf German Language Studies}\\
+\vspace*{-.2in}
+\item[] Goethe B1 Certification\\
+February 2025 -- April 2025
+\end{itemize}
+\vspace*{.03in}
+
+\begin{itemize}
+\item {\bf Helmholtz-Zentrum Hereon, Geesthacht, Germany}\\
+\vspace*{-.2in}
+\item[] Guest Scientist  \\
+May 2025 -- October 2025
+\vspace*{.03in}
+\item[-] Continued research on cyanobacteria life-cycle modelling in collaboration with the Ecosystem Modelling Department (Prof. Dr. Kai Wirtz), finalizing the modelling work for publication.
+\end{itemize}
+\vspace*{.03in}
+
+\begin{itemize}
+\item {\bf CQ Beratung + Bildung, Berlin, Germany}\\
+\vspace*{-.2in}
+\item[] Further Training -- Bioinformatics and Biostatistics\\
+August 2025 -- February 2026
+\vspace*{.03in}
+\item[-] Acquired additional computational and statistical methods (Python, R, biostatistics) complementing existing modelling skill set.
+\item[-] Capstone: Built a reproducible Nextflow (DSL2) pipeline for Hepatitis Delta Virus sequence analysis --- automated NCBI download, MAFFT alignment, and trimAl trimming with Conda-managed dependencies (\href{https://github.com/thejusmahajan/hepatitis-delta-pipeline}{\faGithub\ GitHub}).
+\end{itemize}
+\vspace*{.03in}
+
+\begin{itemize}
+\item {\bf HealthTwiSt GmbH, Berlin, Germany}\\
+\vspace*{-.2in}
+\item[] Internship -- Large-Scale Data Analysis \& Pipeline Engineering\\
+February 2026 -- April 2026
+\vspace*{.1in}
+\item[-] Refactored a monolithic 1,834-line R data pipeline (tidyverse) for Germany's interventional radiology quality registry (DeGIR); 143,000+ patient records from \textasciitilde300 clinics. Reduced to 1,348 lines ($-$26.5\%) with byte-identical output verified via \texttt{identical()}.
+\item[-] Externalised 257 hard-coded correction rules into 8 configuration CSV files, enabling non-programmer editing of business rules.
+\item[-] Replaced 357 deprecated function calls across 4 pipeline files, modernising the codebase to current tidyverse standards.
+\item[-] Created the \texttt{degirtools} R package (9 exported functions, roxygen2 docs, \texttt{devtools::check()} passing) by extracting reusable logic from a 767-line helper file.
+\item[-] Discovered 2 pre-existing bugs through systematic code analysis; documented both and preserved original behaviour for supervisor review --- demonstrating production-code discipline.
+\item[-] Built an interactive R Shiny dashboard (6 modules: overview, interventions, complications, radiation doses, success rates, about) using plotly, DT, and bslib. Deployed to shinyapps.io with GDPR-safe synthetic data.
+\item[-] Wrote Tidymodels teaching materials (Quarto/GitHub) replacing the legacy caret framework for ML workflows in R.
+\end{itemize}
+\vspace*{.03in}
+
+\begin{itemize}
+\item {\bf Tutorwaves Solutions Inc / Freelance, Kerala, India}\\
+\vspace*{-.2in}
+\item[] Physics Educator \hfill October 2018 -- March 2021
+\end{itemize}
+\vspace*{.03in}
+
+\begin{itemize}
+\item {\bf Universit\'e Paris-Saclay, Institut des Sciences Mol\'eculaires d'Orsay, France}\\
+\vspace*{-.2in}
+\item[] Ph.D. Researcher \hfill October 2015 -- September 2018
+\vspace*{.03in}
+\item[-] Led atomic collision experiments; processed terabytes of data and modeled fragmentation using C++.
+\end{itemize}
+
+\section{\sc Teaching Experience}
+
+\begin{itemize}
+\item {\bf Marine Ecosystem Modelling} (BSc level)\\
+University of Hamburg, 2022--2023\\
+Regular teaching contribution.
+
+\vspace*{.03in}
+\item {\bf ``From 0D to 1D'' -- Advanced Marine Ecosystem Modelling} (MSc level)\\
+University of Hamburg, 2023\\
+2-day guest lecture as part of ``Introduction to Biological Oceanography and Fisheries Science'' course.
+\end{itemize}
+
+\section{\sc Education}
+
+\begin{itemize}
+\item {\bf Ph.D. in Astrochemistry} (October 2015 -- September 2018)\\
+Institut des Sciences Mol\'eculaires (ISMO), Universit\'e Paris-Saclay, France
+\vspace*{.03in}
+\item {\bf M.Sc. in Physics} (July 2012 -- December 2014)\\
+National Institute of Technology Calicut, India\\
+First Class with Distinction
+\vspace*{.03in}
+\item {\bf B.Sc. in Physics} (June 2009 -- April 2012)\\
+University of Calicut, India
+\end{itemize}
+
+\section{\sc Technical Skills}
+
+\begin{tabular}{@{}p{1.5in}p{4in}}
+{\bf Modelling Frameworks:} & GOTM-FABM, ERGOM, Individual-Based Models (IBM), trait-diffusion models\\[1ex]
+{\bf Programming:} & Fortran, Python (JAX, NumPy, Pandas, xarray), R (tidyverse, R Shiny, devtools/roxygen2), C++, BASH\\[1ex]
+{\bf HPC \& Infra:} & SLURM, MPI, Hardware Acceleration (TPU/GPU via JAX), Linux/Unix, Git\\[1ex]
+{\bf Data \& Analysis:} & NetCDF, HDF5, ERA5 reanalysis data, large-scale model output analysis, climate scenario analysis
+\end{tabular}
+
+\section{\sc Publications}
+
+Google Scholar: \url{https://scholar.google.com/citations?hl=en&user=PJkZwAwAAAAJ}
+
+\textbf{In preparation:}
+\begin{list2}
+\item T. Mahajan, E. Schaum, K. Wirtz. \textit{Cyanobacteria life-cycle modelling and individual-based model trait-diffusion results.} In preparation.
+\end{list2}
+
+\textbf{Peer-reviewed (5 articles):}
+\begin{enumerate}
+\item T. Mahajan, et al. \textit{Journal of Physics: Conference Series}, 1412:142026, 2020.
+\item T. Idbarkach, et al. \textit{Astronomy \& Astrophysics}, 628:A75, 2019.
+\item T. Mahajan, et al. \textit{Journal of Physics B}, 2019.
+\item T. Idbarkach, et al. \textit{Journal of Physics B}, 51(24):245201, 2018.
+\item T. Idbarkach, et al. \textit{Journal of Physics: Conference Series}, 1412(11):112028, 2020.
+\end{enumerate}
+
+\section{\sc Languages}
+
+English (proficient), German (B1 -- Goethe Certified), French (intermediate), Malayalam (native)
+
+\section{\sc References}
+
+\begin{itemize}
+\item {\bf Prof. Dr. Elisa Schaum}\\
+Head of Research Unit Plankton\"okologie\\
+Institut f\"ur marine \"Okosystem- und Fischereiwissenschaften, University of Hamburg\\
+Email: \texttt{elisa.schaum@uni-hamburg.de}\\
+Phone: +49 40 2395-26625\\
+Relation: Postdoctoral collaborator
+
+\item {\bf Prof. Dr. Kai Wirtz}\\
+Head of Department Ecosystem Modelling\\
+Institute of Coastal Systems -- Analysis and Modelling, Helmholtz-Zentrum Hereon\\
+Email: \texttt{kai.wirtz@hereon.de}\\
+Phone: +49 4152 87-1513\\
+Relation: Guest Scientist supervisor
+\end{itemize}
+
+\end{resume}
+\end{document}

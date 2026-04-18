@@ -1,0 +1,56 @@
+Postdoctoral researcher (m/f/d) in ocean-biogeochemical modelling
+Deadline: 15th April 2026
+GEOMAR Helmholtz Centre for Ocean Research Kiel is a foundation under public law jointly financed by the Federal Republic of Germany (90%) and the State of Schleswig-Holstein (10%). It is one of the internationally leading institutions in the field of marine research.
+
+Through our research and our commitment to the transfer of knowledge and technology, we contribute significantly to the preservation of the function and protection of the ocean for future generations. The position is funded by the German Research Foundation project ZOOM-IN (Zooplankton Diel Vertical Migration in the Peruvian Upwelling System: Insights into Present and Future Impacts on Biogeochemistry).
+
+The research unit Biogeochemical Modelling of the research division Marine Biogeochemistry is offering a position as a
+
+Postdoctoral researcher (m/f/d)
+in ocean-biogeochemical modelling
+starting date is flexible, preferred July 1st 2026 but no later than October 1st 2026.
+
+Job Description
+
+This position focuses on investigating the biogeochemical impacts of different zooplankton diel vertical migration (DVM) behaviors in the Peruvian Upwelling System, such as their effects on surface productivity, export fluxes, oxygen distributions, and nitrogen loss processes.
+The main task will be to implement and evaluate different zooplankton DVM parameterizations within an existing regional ocean circulation–biogeochemical model. The long-term objective is to assess their impacts on local biogeochemical dynamics under present-day conditions and future IPCC climate scenarios throughout the 21st century.
+Qualification
+
+Requirements
+
+Applicants must hold a PhD degree in ocean or climate sciences, or a related field.
+Experience working with ocean-biogeochemical models or Earth system models, or similar.
+A background in analyzing large datasets and visualizing data using Python, MATLAB, or equivalent.
+Excellent written English skills and demonstrated very good presentation and communication skills in English.
+Publication using ocean-biogeochemical models or Earth system models will be considered a strong asset. Manuscripts published or in progress in English.
+Beneficial
+
+A background in marine oxygen, nitrogen-cycle or plankton dynamics.
+Experience with high-performance computing facilities and knowledge of Fortran.
+Experience with a regional ocean circulation model (e.g., ROMS).
+At a workplace, directly on the Kiel Fjord with many leisure and recreational opportunities, we offer you:
+
+Good conditions for work-life balance: We offer, among other things, the possibility of mobile working and individual working time arrangements, vacation courses for the children of our employees, and good support in finding a place in a daycare center at the Kiel site
+Support services for professional and personal life situations
+An exciting work environment with the opportunity to provide important impetus for the development of sustainable solutions
+Exciting topics in an international environment
+Work in the field of marine and climate research, a forward-looking area with social significance
+30 vacation days + additional time off at Christmas Eve and New Year's Eve
+Company pension plan and capital-forming benefits
+The salary depends on qualification and could be up to the class E13 TVöD Bund of the German tariff for public employees. The position will be offered either as a full-time contract for 27 months or as a part-time position (75%) for three years. The position cannot be split.
+
+GEOMAR Helmholtz Centre for Ocean Research Kiel seeks to increase the proportion of female scientists and explicitly encourages qualified female academics to apply. GEOMAR is an equal opportunity employer and encourages scientists with disabilities to apply. Qualified disabled applicants will receive preference in the application process.
+
+Please send your application for this position, including a CV with names and contact information of 2 references, certificates and a motivation letter not later than April 15th 2026 under the following link:
+
+Online application
+
+As soon as the selection procedure has finished, all your application data will be removed according to data protection regulation.
+
+For further information regarding the position and research unit please contact Dr. Tianfei Xue (txue(at)geomar.de).
+
+We will answer all your questions if you send us an e-mail to bewerbung(at)geomar.de. In doing so, please refer to the keyword "ZOOM-IN".
+
+For further information on GEOMAR Helmholtz Centre for Ocean Research Kiel or the Helmholtz Association, please visit www.geomar.de or www.helmholtz.de.
+
+GEOMAR is committed to an objective and non-discriminatory personnel selection. Our job advertisements address all people. We expressly renounce the submission of application photos.

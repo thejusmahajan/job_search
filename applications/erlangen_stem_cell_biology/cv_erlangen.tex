@@ -5,7 +5,7 @@
 
 % --- HEADER ---
 \cvheader{Thejus Mahajan Ph.D.}
-         {Bioinformatics \& Data Scientist}
+         {Computational Biologist --- AI \& Multi-Omics}
          {+49-15259697629}
          {thejus.mahajan@uni-hamburg.de}
          {\href{https://thejusmahajan.github.io}{thejusmahajan.github.io}}
@@ -31,9 +31,9 @@
 
 \cvsection{Profile}
 \begin{itemize}[label=\textbullet, leftmargin=1em]
-    \item \textbf{Focus:} Large-scale data analysis, bioinformatics pipeline development, and statistical modeling.
-    \item \textbf{Core Stack:} R (Bioconductor, Tidymodels), Python (Pandas, JAX, Scikit-learn), Nextflow (DSL2), BASH.
-    \item \textbf{Current Objective:} Applying computational and machine learning expertise in single-cell multi-omics to advance research in stem cell biology.
+    \item \textbf{Focus:} AI-driven multi-omics integration, deep learning, and bioinformatics pipeline development for translational biomedicine.
+    \item \textbf{Core Stack:} Python (JAX, PyTorch concepts, Scikit-learn, Pandas), R (Bioconductor, Tidymodels), Nextflow (DSL2), BASH.
+    \item \textbf{Current Objective:} Building AI frameworks for multi-omics data integration to advance research in stem cell biology and complex comorbidity networks.
 \end{itemize}
 
 \cvsection{Experience}
@@ -43,7 +43,7 @@
              {02/2026 - 04/2026}
              {Berlin, Germany}
              {Clinical data research and development under Dr.~Andreas Busjahn
-             \begin{itemize}
+             \begin{itemize}\setlength{\itemsep}{0.05em}
                    \item Refactored a monolithic 1,834-line R data pipeline (tidyverse) for Germany's interventional radiology quality registry (DeGIR); 143,000+ patient records from \textasciitilde300 clinics. Reduced to 1,348 lines ($-$26.5\%) with byte-identical output verified via \texttt{identical()}.
                    \item Externalised 257 hard-coded correction rules into 8 configuration CSV files, enabling non-programmer editing of business rules.
                    \item Replaced 357 deprecated function calls across 4 pipeline files, modernising the codebase to current tidyverse standards.
@@ -118,36 +118,6 @@
              \end{itemize}}
 
 
-\cvsection{Education}
-
-\cvexperience{Ph.D. in Astrochemistry}
-             {Universit\'e Paris-Saclay, Institute of Molecular Sciences (ISMO) Orsay, France}
-             {09/2015 - 09/2018}
-             {Orsay, France}
-             {}
-
-\cvexperience{M.Sc. in Physics}
-             {National Institute of Technology Calicut, India}
-             {07/2012 - 01/2015}
-             {Calicut, India}
-             {}
-
-\cvexperience{B.Sc. in Physics}
-             {University of Calicut, India}
-             {06/2009 - 04/2012}
-             {Thrissur, India}
-             {}
-
-\cvsection{References}
-
-\begin{tabular}{@{}p{0.5\linewidth} p{0.5\linewidth}@{}}
-\textbf{Dr. Andreas Busjahn} & \textbf{Prof. Dr. Kai Wirtz} \\
-abusjahn@healthtwist.de & kai.wirtz@hereon.de \\[0.4cm]
-\textbf{Prof. Dr. Elisa Schaum} & \\
-elisa.schaum@uni-hamburg.de & \\
-\end{tabular}
-\vspace{0.4cm}
-
 \switchcolumn
 
 % ==============================================
@@ -165,8 +135,8 @@ elisa.schaum@uni-hamburg.de & \\
            {Resolved a critical data-loss error by creating a Fortran simulation to correct for a misplaced particle detector, recalculating results using multi-sensor data.}
 
 \cvstrength{\faAward}
-           {Bioinformatics \& Biostatistics}
-           {Bridged physical science expertise with modern biological workflows. Skilled in complex multidimensional array operations, JAX/GPU acceleration, sequence alignment, and multivariate statistical modeling using R (Bioconductor) and Python.}
+           {AI \& Multi-Omics Integration}
+           {Deep expertise in tensor operations and GPU/TPU-accelerated computing (Google JAX) — the computational foundation for graph neural networks and variational autoencoders. Combines statistical genomics (R/Bioconductor) with Python-based deep learning to integrate high-dimensional biological datasets.}
 
 \cvsection{Technical Skills}
 
@@ -174,10 +144,10 @@ elisa.schaum@uni-hamburg.de & \\
          {Python (JAX, Pandas, NumPy, Scikit-learn, Biopython), R (Bioconductor, Tidymodels), SQL, BASH}
 
 \cvskills{Bioinformatics}
-         {Nextflow (DSL2), NGS Analysis, Multiple Sequence Alignment (MAFFT), Sequence Trimming (trimAl), NCBI / Entrez}
+         {Multi-Omics Data Integration, Nextflow (DSL2), NGS Analysis, Multiple Sequence Alignment (MAFFT), Sequence Trimming (trimAl), NCBI / Entrez}
 
-\cvskills{Biostatistics \& ML}
-         {Deep Learning Foundations (TensorFlow, PyTorch concepts via JAX), Multivariate Analysis, PCA, Clustering, Scikit-learn, Tidymodels}
+\cvskills{AI \& Deep Learning}
+         {Google JAX (TPU/GPU), PyTorch \& TensorFlow concepts, Graph Neural Networks (conceptual), Scikit-learn, Tidymodels, PCA, Clustering}
 
 \cvskills{Data Engineering}
          {Hardware Acceleration (TPU/GPU), Large dataset processing (HDF5, NetCDF), Pipeline development, R Shiny, devtools/roxygen2}
@@ -230,13 +200,61 @@ Forschungszentrum J\"ulich\\[0.3cm]
 \cvlanguage{Hindi}{Intermediate}{2}
 
 
-% --- Signature (inside right column) ---
-\vspace{1.0cm}
-\begin{flushleft}
-Hamburg, 11 April 2026\\[0.3cm]
-\includegraphics[height=1.0cm]{thejus signature.jpg}\\[0.1cm]
-\textbf{Dr. Thejus Mahajan}
-\end{flushleft}
-
 \end{paracol}
+
+\begin{center}
+    \vspace{0.1em}
+    {\Large\textbf{EDUCATION}}\\
+    {\color{cvtext}\rule{0.5\linewidth}{1.5pt}}\par
+    \vspace{0.3em}
+\end{center}
+
+\begin{minipage}[t]{0.48\textwidth}
+\cvexperience{Ph.D. in Astrochemistry}
+             {Universit\'e Paris-Saclay, Institute of Molecular Sciences (ISMO)}
+             {10/2015 - 09/2018}
+             {Orsay, France}
+             {{\small Supervisor: Dr.~Karine B\'eroff. Thesis: \textit{Excitation and fragmentation of C$_n$N$^+$ (n=1--3) in collisions with He atoms at intermediate velocity.}}}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\cvexperience{Research Project -- Theoretical Atomic Physics}
+             {IIT Mandi (under Dr.~Hari Varma)}
+             {02/2015 - 08/2015}
+             {Mandi, India}
+             {{\small Theoretical atomic physics; partly remote.}}
+\end{minipage}
+
+\vspace{0.5em}
+
+\begin{minipage}[t]{0.48\textwidth}
+\cvexperience{M.Sc. in Physics}
+             {National Institute of Technology Calicut, India}
+             {07/2012 - 12/2014}
+             {Calicut, India}
+             {{\small First Class with Distinction (CGPA 8.71/10).}}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\cvexperience{B.Sc. in Physics}
+             {University of Calicut, India}
+             {06/2009 - 04/2012}
+             {Thrissur, India}
+             {{\small Grade: B+ (CGPA 3.49/4.0).}}
+\end{minipage}
+
+\vspace{0.3cm}
+\begin{minipage}[c]{0.48\textwidth}
+\begin{flushleft}
+{\Large Hamburg, 11 April 2026}
+\end{flushleft}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{0.48\textwidth}
+\begin{flushright}
+\includegraphics[height=1.2cm]{thejus signature.jpg}\\[0.05cm]
+{\Large \textbf{Dr. Thejus Mahajan}}
+\end{flushright}
+\end{minipage}
+
 \end{document}

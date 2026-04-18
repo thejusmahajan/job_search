@@ -316,14 +316,14 @@ LaTeX Font Info:    ... okay on input line 12.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
-* v-part:(T,H,B)=(128.0374pt, 660.10394pt, 56.9055pt)
+* v-part:(T,H,B)=(99.58464pt, 702.78308pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=469.47049pt
-* \textheight=660.10394pt
+* \textheight=702.78308pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
-* \topmargin=18.76741pt
+* \topmargin=-9.68535pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=9.0pt
@@ -389,6 +389,14 @@ File: thejus signature.jpg Graphic file (type jpg)
 <use thejus signature.jpg>
 Package pdftex.def Info: thejus signature.jpg  used on input line 70.
 (pdftex.def)             Requested size: 99.58475pt x 28.45274pt.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 75.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 75.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
+(Font)              `T1/Roboto-LF/bold/n' on input line 75.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 8.0pt on input line 75.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./thejus signature.jpg>]
@@ -398,18 +406,18 @@ hanged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10137 strings out of 477290
- 167078 string characters out of 5818809
- 1866330 words of memory out of 5000000
- 30203 multiletter control sequences out of 15000+600000
- 524410 words of font info for 40 fonts, out of 8000000 for 9000
+ 10143 strings out of 477290
+ 167208 string characters out of 5818809
+ 1863330 words of memory out of 5000000
+ 30207 multiletter control sequences out of 15000+600000
+ 534781 words of font info for 44 fonts, out of 8000000 for 9000
  417 hyphenation exceptions out of 8191
- 63i,5n,80p,774b,449s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,5n,80p,661b,449s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{/usr/s
 hare/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc}</usr/share/texl
 ive/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb>
-Output written on cover_letter_helmholtz_munich.pdf (1 page, 76784 bytes).
+Output written on cover_letter_helmholtz_munich.pdf (1 page, 76387 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream

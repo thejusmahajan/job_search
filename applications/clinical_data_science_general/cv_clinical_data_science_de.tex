@@ -1,0 +1,263 @@
+\documentclass{thejus_cv}
+\usepackage[hidelinks]{hyperref}
+
+\begin{document}
+
+% --- HEADER ---
+\cvheader{Thejus Mahajan Ph.D.}
+         {Clinical Data Scientist --- Biostatistik \& Datenpipeline-Engineering}
+         {+49 1525 9697629}
+         {thejus.mahajan@uni-hamburg.de}
+         {\href{https://thejusmahajan.github.io}{thejusmahajan.github.io}}
+         {Reventlowstra{\ss}e 17, 22605 Hamburg}
+
+% Extra contact row for personal details and links
+\vspace{-0.5cm}
+{\small\color{white}
+\faCalendar\ \ *30.09.1992 (Talikulam, Indien) \hspace{0.5cm} \faUser\ \ Verheiratet \hspace{0.5cm} Staatsangeh\"origkeit: Indisch
+}\par
+\vspace{0.1cm}
+{\small\color{white}
+\faLinkedin\ \ \href{https://www.linkedin.com/in/thejusmahajan/}{linkedin.com/in/thejusmahajan}
+\hspace{0.5cm}
+\faGithub\ \ \href{https://github.com/thejusmahajan}{github.com/thejusmahajan}
+\hspace{0.5cm}
+\faGraduationCap\ \ \href{https://scholar.google.com/citations?user=PJkZwAwAAAAJ}{Google Scholar Profil}
+}\par
+\vspace{0.1cm}
+\begin{paracol}{2}
+
+% ==============================================
+% LEFT COLUMN
+% ==============================================
+
+\cvsection{Profil}
+\begin{itemize}[label=\textbullet, leftmargin=1em]
+    \item Computational Scientist (Promotion, Post-doc) mit Erfahrung in klinischem Datenpipeline-Engineering, Biostatistik und Bioinformatik.
+    \item Kernkompetenzen: R (tidyverse, Shiny, tidymodels), Python (JAX, Pandas), SQL, Git.
+    \item Praktikum bei HealthTwiSt GmbH: Refactoring einer Produktions-R-Pipeline f\"ur das DeGIR-Qualit\"atsregister (143.000+ Patientendatens\"atze, \textasciitilde300 Kliniken), Aufbau eines R-Shiny-Dashboards, Erstellung des R-Pakets degirtools.
+    \item Verf\"ugbar ab Mitte April 2026.
+    \item Offen f\"ur: Klinische Datenwissenschaft, Biostatistik, Bioinformatik, Dateningenieurwesen, Research Software Engineering.
+\end{itemize}
+
+\vspace{-0.5em}
+\cvsection{Berufserfahrung}
+
+\cvexperience{Praktikum -- Klinische Biostatistik \& Datenpipeline-Engineering}
+             {HealthTwiSt GmbH}
+             {02/2026 - 04/2026}
+             {Berlin, Deutschland}
+             {Klinische Datenforschung und -entwicklung unter Dr.~Andreas Busjahn
+             \begin{itemize}\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+                   \item Refactoring einer monolithischen 1.834-Zeilen R-Datenpipeline (tidyverse) f\"ur das interventionell-radiologische Qualit\"atsregister Deutschlands (DeGIR); 143.000+ Patientendatens\"atze von \textasciitilde300 Kliniken. Reduktion auf 1.349 Zeilen ($-$26,5\%) mit byte-identischer Ausgabe, verifiziert via \texttt{identical()}.
+                   \item Externalisierung von 257 hardcodierten Korrekturregeln in 8 Konfigurations-CSV-Dateien; erm\"oglicht Bearbeitung durch Nicht-Programmierer.
+                   \item Ersetzung von 360 veralteten Funktionsaufrufen in 4 Pipeline-Dateien; Modernisierung auf aktuelle tidyverse-Standards.
+                   \item Erstellung des R-Pakets \texttt{degirtools} (9 exportierte Funktionen, roxygen2-Dokumentation, \texttt{devtools::check()} bestanden) durch Extraktion wiederverwendbarer Logik aus einer 767-Zeilen-Hilfsdatei.
+                   \item Entdeckung von 2 vorbestehenden Fehlern durch systematische Codeanalyse; dokumentiert und originales Verhalten f\"ur Supervisor-Review beibehalten --- Demonstration von Produktionscode-Disziplin.
+                   \item Aufbau eines interaktiven R-Shiny-Dashboards (6 Module: \"Ubersicht, Interventionen, Komplikationen, Strahlendosen, Erfolgsraten, Info) mit plotly, DT und bslib. Deployment auf shinyapps.io mit DSGVO-konformen synthetischen Daten.
+                   \item Erstellung von Tidymodels-Lehrmaterialien (Quarto/GitHub) als Ersatz f\"ur das veraltete caret-Framework f\"ur ML-Workflows in R.
+               \end{itemize}\vspace{-0.3em}}
+
+\cvexperience{Weiterbildung -- Bioinformatik und Biostatistik}
+             {CQ Beratung + Bildung GmbH}
+             {08/2025 - 02/2026}
+             {Berlin, Deutschland}
+             {Angewandte Bioinformatik und Biostatistik
+             \begin{itemize}\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+                 \item Programmiermethodik: Shell (BASH), Python (objektorientiert), R.
+                 \item Bioinformatik-Datenbanken (NCBI, Biopython, SQL) und Sequenzanalyse.
+                 \item NGS-Analysepipelines (Next-Generation Sequencing; Nextflow, Galaxy); Strukturbioinformatik.
+                 \item Biostatistik (R/Bioconductor): ANOVA, PCA, HCA, multivariate Analyse, Markov-Ketten.
+                 \item Abschlussprojekt: Erstellung einer reproduzierbaren Nextflow-(DSL2)-Pipeline f\"ur die Sequenzanalyse des Hepatitis-Delta-Virus --- automatisierter NCBI-Download, MAFFT-Alignment und trimAl-Trimming mit Conda-verwalteten Abh\"angigkeiten (\href{https://github.com/thejusmahajan/hepatitis-delta-pipeline}{\faGithub\ GitHub}).
+             \end{itemize}\vspace{-0.3em}}
+
+\cvexperience{Gastwissenschaftler (parallel zur Weiterbildung ab 08/2025)}
+             {Helmholtz-Zentrum Hereon, \"Okosystemmodellierung}
+             {05/2025 - 10/2025}
+             {Geesthacht, Deutschland}
+             {Modellierung evolution\"arer Prozesse in Meeres\"okosystemen; Simulation langfristiger Umweltauswirkungen mittels fortgeschrittener Rechenmethoden. Fertigstellung des rechnergest\"utzten Modellierungs-Frameworks und Aufbereitung der Simulationsdaten f\"ur eine Peer-Review-Publikation.\vspace{-0.3em}}
+
+\vspace{-0.3em}
+{\large\textbf{Jobsuche \& Deutschkurs}}\par
+{\small\color{cvgray}\faCalendar\ \ 02/2025 - 04/2025 \hspace{0.5cm} \faMapMarker\ \ Hamburg, Deutschland}\par
+\vspace{0.2em}
+{\color{cvlightgray}\hdashrule{\linewidth}{0.5pt}{1mm}}\par
+\vspace{0.2em}
+Aktive Stellensuche und Erwerb der deutschen Sprache (Goethe-Zertifikat B1).
+\vspace{0.3em}
+
+\cvexperience{Wissenschaftlicher Mitarbeiter (Post-doc)}
+             {Universit\"at Hamburg, Institut f\"ur Marine \"Okosystem- und Fischereiwiss.}
+             {08/2021 - 01/2025}
+             {Hamburg, Deutschland}
+             {Marine \"Okosystemmodellierung
+             \begin{itemize}\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+                 \item Elternzeit von 01/2024 bis 12/2024.
+                 \item Modellentwicklung: Entwicklung des ``Cyanobacteria Life Cycle'' (CLC)-Modells im ERGOM-Framework f\"ur Klimaerw\"armungsprojektionen.
+                 \item Hochleistungsrechnen (HPC): \"Ubersetzung eines Legacy-Fortran-Modells in eine hochperformante Python-Engine (\textbf{Google JAX}, TPU/GPU-Parallelisierung). Verarbeitung gro\ss{}er NetCDF-Datens\"atze in Linux-HPC-Umgebung.
+             \end{itemize}\vspace{-0.3em}}
+
+\vspace{-0.3em}
+{\large\textbf{Berufliche Neuorientierung}}\par
+{\small\color{cvgray}\faCalendar\ \ 04/2021 - 07/2021 \hspace{0.5cm} \faMapMarker\ \ Hamburg, Deutschland}\par
+\vspace{0.2em}
+{\color{cvlightgray}\hdashrule{\linewidth}{0.5pt}{1mm}}\par
+\vspace{0.2em}
+Umzug von Indien nach Deutschland und aktive Stellensuche.
+\vspace{0.3em}
+
+\cvexperience{Physik-Dozent \& Schachtrainer}
+             {Freiberuflich / Tutorwaves Solutions Inc (ab 08/2020)}
+             {10/2018 - 03/2021}
+             {Kerala, Indien}
+             {Freiberufliche Physik-Nachhilfe und Coaching von Schachmannschaften auf Landesebene; ab 08/2020 bei Tutorwaves: Erstellung von Physikinhalten und Betreuung von Sch\"ulern in den USA und Australien.\vspace{-0.3em}}
+
+\cvexperience{Doktorand in Astrochemie}
+             {Universit\'e Paris-Saclay}
+             {10/2015 - 09/2018}
+             {Orsay, Frankreich}
+             {Durchf\"uhrung von Atomkollisionsexperimenten, Datenanalyse und Ergebnismodellierung.
+             \begin{itemize}\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+                 \item Erfassung und Verarbeitung von Terabytes an Rohdaten aus Tandem-Teilchenbeschleunigerexperimenten.
+                 \item C++ Code-Optimierung: Verbesserung bestehender Algorithmen zur Rauschunterdr\"uckung, Signalgl\"attung und Konvertierung von Rohdaten in mehrdimensionale Strukturen.
+                 \item Entwicklung eines molekularen Fragmentierungsmodells zur Vorhersage chemischer Reaktionen im Weltraum (Beitrag zur KIDA-Datenbank).
+             \end{itemize}\vspace{-0.3em}}
+
+
+\switchcolumn
+
+% ==============================================
+% RIGHT COLUMN
+% ==============================================
+
+\vspace{-0.5em}
+\cvsection{St\"arken}
+
+\cvstrength{\faStar}
+           {Klinische Datenpipeline-Engineering}
+           {Refactoring einer Produktions-Datenpipeline (1.834 Zeilen, 143K Datens\"atze, \textasciitilde300 Kliniken) mit 26,5\% Codereduktion. Erstellung des R-Pakets degirtools. Byte-Level-Verifizierung nach jeder \"Anderung via \texttt{identical()}.}
+
+\cvstrength{\faLightbulb}
+           {Biostatistik \& Maschinelles Lernen}
+           {Versiert in multivariater Analyse (PCA, ANOVA), klinischer Ergebnisanalyse, Entwicklung von Machine-Learning-Workflows mit tidymodels und Kreuzvalidierung.}
+
+\cvstrength{\faAward}
+           {Bioinformatik \& Reproduzierbare Forschung}
+           {Versiert in NGS-Datenanalyse, Erstellung reproduzierbarer Pipelines mit Nextflow (DSL2), Bioconductor-Workflows und Sicherstellung DSGVO-konformer Datenverarbeitung.}
+
+\vspace{-0.5em}
+\cvsection{Technische F\"ahigkeiten}
+
+\cvskills{Programmierung}
+         {R (tidyverse, Shiny, tidymodels, Bioconductor), Python (JAX, Pandas, NumPy), SQL, Fortran, C++, BASH}
+
+\cvskills{Klinische Daten \& Biostatistik}
+         {Medizinische Registerpipelines, DSGVO-Konformit\"at, multivariate Analyse, PCA, ANOVA, Survival-Analyse-Konzepte, klinische Endpunkte}
+
+\cvskills{Dateningenieurwesen}
+         {Pipeline-Refactoring, konfigurationsgetriebene ETL, \texttt{identical()}-Verifizierung, R-Shiny-Dashboards, gro\ss{}e Datens\"atze (HDF5, NetCDF)}
+
+\cvskills{Bioinformatik}
+         {NGS-Analyse, Nextflow (DSL2), Sequenzanalyse, Bioconductor}
+
+\cvskills{Werkzeuge}
+         {Git/GitHub, Linux/Unix, HPC-Cluster, Conda, LaTeX, Docker-Konzepte}
+
+\vspace{-0.5em}
+\cvsection{Sprachen}
+
+\cvlanguage{Englisch}{Verhandlungssicher (C1)}{4}
+\cvlanguage{Deutsch}{B1 (Goethe-Zertifikat), B2 in Vorbereitung}{3}
+\cvlanguage{Franz\"osisch}{Grundkenntnisse}{2}
+\cvlanguage{Malayalam}{Muttersprache}{5}
+\cvlanguage{Tamil}{Verhandlungssicher}{4}
+\cvlanguage{Hindi}{Grundkenntnisse}{2}
+
+
+\vspace{-0.5em}
+\cvsection{Weiterbildung / Kurse}
+
+\textbf{High Performance Computing (HPC) Training}\\
+J\"ulich Supercomputing \textbf{Center (JSC)},\\
+Forschungszentrum J\"ulich\\[0.3cm]
+
+\textbf{MITx: 7.00x Introduction to Biology -- The Secret of Life}\\
+{\small Umfassende Kursarbeit zu Genetik, Biochemie und Molekularbiologie.}\\[0.4cm]
+
+\vspace{-0.5em}
+\cvsection{Publikationen}
+
+{\small
+T.~Mahajan et al. \textit{J.~Phys.: Conf.~Ser.}, 1412:142026, 2020.\\[0.15cm]
+{\color{cvlightgray}\hdashrule{\linewidth}{0.5pt}{1mm}}\\[0.15cm]
+T.~Idbarkach et al. \textit{Astron.~Astrophys.}, 628:A75, 2019.\\[0.15cm]
+{\color{cvlightgray}\hdashrule{\linewidth}{0.5pt}{1mm}}\\[0.15cm]
+T.~Mahajan et al. \textit{J.~Phys.~B}, 2019.\\[0.15cm]
+{\color{cvlightgray}\hdashrule{\linewidth}{0.5pt}{1mm}}\\[0.15cm]
+T.~Idbarkach et al. \textit{J.~Phys.~B}, 51(24):245201, 2018.\\[0.15cm]
+{\color{cvlightgray}\hdashrule{\linewidth}{0.5pt}{1mm}}\\[0.15cm]
+T.~Idbarkach et al. \textit{J.~Phys.: Conf.~Ser.}, 1412(11):112028, 2020.
+}\\[0.1cm]
+\href{https://scholar.google.com/citations?user=PJkZwAwAAAAJ}{\faGraduationCap\ Google Scholar Profil}
+
+
+
+\vspace{-1.5em}
+\end{paracol}
+
+\begin{center}
+    \vspace{0.1em}
+    {\Large\textbf{AUSBILDUNG}}\\
+    {\color{cvtext}\rule{0.5\linewidth}{1.5pt}}\par
+    \vspace{0.3em}
+\end{center}
+
+\begin{minipage}[t]{0.48\textwidth}
+\cvexperience{Promotion in Astrochemie}
+             {Universit\'e Paris-Saclay, Institute of Molecular Sciences (ISMO)}
+             {10/2015 - 09/2018}
+             {Orsay, Frankreich}
+             {{\small Supervisor: Dr.~Karine B\'eroff. Diss.: \textit{Excitation and fragmentation of C$_n$N$^+$ (n=1--3) in collisions with He atoms at intermediate velocity.}}}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\cvexperience{Forschungsprojekt -- Theoretische Atomphysik}
+             {IIT Mandi (unter Dr.~Hari Varma)}
+             {02/2015 - 08/2015}
+             {Mandi, Indien}
+             {{\small Theoretische Atomphysik; teilweise remote.}}
+\end{minipage}
+
+\vspace{0.5em}
+
+\begin{minipage}[t]{0.48\textwidth}
+\cvexperience{M.Sc. in Physik}
+             {National Institute of Technology Calicut, Indien}
+             {07/2012 - 12/2014}
+             {Calicut, Indien}
+             {{\small Mit Auszeichnung (CGPA 8,71/10).}}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\cvexperience{B.Sc. in Physik}
+             {University of Calicut, Indien}
+             {06/2009 - 04/2012}
+             {Thrissur, Indien}
+             {{\small B+ (CGPA 3,49/4,0).}}
+\end{minipage}
+
+\vspace{0.3cm}
+\begin{minipage}[c]{0.48\textwidth}
+\begin{flushleft}
+{\Large Hamburg, 18. April 2026}
+\end{flushleft}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{0.48\textwidth}
+\begin{flushright}
+\includegraphics[height=1.2cm]{thejus signature.jpg}\\[0.05cm]
+{\Large \textbf{Dr. Thejus Mahajan}}
+\end{flushright}
+\end{minipage}
+
+\end{document}

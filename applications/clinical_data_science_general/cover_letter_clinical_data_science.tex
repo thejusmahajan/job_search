@@ -1,0 +1,74 @@
+\documentclass[9pt, a4paper]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{roboto}
+\usepackage[margin=2.5cm, right=2.0cm, top=3.5cm, bottom=1.5cm]{geometry}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+\pagestyle{empty}
+
+% Sender Information
+\begin{flushleft}
+Dr. Thejus Mahajan\\
+Reventlowstra{\ss}e 17\\
+22605 Hamburg\\
++49-15259697629\\
+thejus.mahajan@uni-hamburg.de
+\end{flushleft}
+
+\vspace{0.3cm}
+
+% Date
+\begin{flushright}
+Hamburg, 18 April 2026
+\end{flushright}
+
+\vspace{0.3cm}
+
+% Recipient --- LEAVE AS PLACEHOLDER
+\begin{flushleft}
+{[Recipient Name]}\\
+{[Company/Institution]}\\
+{[Street Address]}\\
+{[City, Postal Code]}
+\end{flushleft}
+
+\vspace{0.3cm}
+
+% Subject
+\textbf{Application as Clinical Data Scientist (m/f/d)}
+
+Dear Hiring Manager,
+
+The application of robust computational methods to process large-scale clinical data is vital for modern medical data pipelines. With a strong background as a computational scientist transitioning from theoretical physics to clinical bioinformatics, I bring extensive experience in managing complex data infrastructures. During my internship, I refactored a production medical data pipeline encompassing over 143,000 patient records from approximately 300 clinics, demonstrating my capability to bridge sophisticated computational architecture with clinical data processing. This combination positions me perfectly to contribute as a Clinical Data Scientist in an interdisciplinary setting.
+
+At HealthTwiSt GmbH, I engineered a production pipeline tailored for the DeGIR quality registry, Germany's interventional radiology registry. I rigorously applied R and the tidyverse ecosystem to scale operations across datasets containing 143,143 rows and 1,920 variables. By introducing a config-driven externalization method, I successfully decoupled 257 hard-coded rules into 8 configuration CSV files, substantially improving system maintainability. To guarantee consistency and safety, I maintained byte-level verification throughout the refactoring workflow using strict \texttt{identical()} baseline testing. Additionally, I constructed a comprehensive, bilingual R Shiny dashboard containing six interactive modules and successfully synthesized the \texttt{degirtools} R package out of complex legacy code.
+
+In supporting clinical data science initiatives, I offer the following core strengths:
+\begin{itemize}
+    \item \textbf{Clinical Data Engineering:} Extensive practical experience in building production-grade medical data pipelines utilizing R and tidyverse; proven capability in ensuring GDPR-compliant handling of 143,000+ patient records; implementation of config-driven architectures enabling systematic maintainability and accessibility for non-programmers.
+    \item \textbf{Biostatistics \& Data Analysis:} Capability in multivariate analysis applications including PCA and ANOVA; proficiency in deploying robust machine learning workflows leveraging tidymodels; experienced in designing interactive data visualizations with R Shiny and Plotly and formulating statistical reporting tailored for clinical governance boards.
+    \item \textbf{Scientific Computing \& HPC:} Strong foundation in high-performance Python frameworks including Google JAX mapping to TPU/GPU parallelization architectures; comprehensive background in Fortran-to-Python model translation, as well as optimizing large-scale data processing workflows using NetCDF and HDF5 within Linux high-performance computing clusters.
+\end{itemize}
+
+My extensive academic training, enhanced by targeted bioinformatics and biostatistics qualification courses at CQ Beratung+Bildung (encompassing Next-Generation Sequencing, Nextflow, and Bioconductor), provides me with a versatile foundation equipped to solve rigorous quantitative challenges and apply computational discipline in clinical environments. I am available starting mid-April 2026 and am very eager to translate computational rigor into actionable clinical insights for your team.
+
+I look forward to discussing my qualifications with you during a personal interview.
+
+Sincerely
+
+\vspace{0.3cm}
+
+\includegraphics[height=1.0cm]{thejus signature.jpg}
+
+Dr. Thejus Mahajan
+
+\vspace{0.2cm}
+{\small\textbf{Enclosures:} Curriculum Vitae, Degrees and Certificates}
+
+\end{document}
