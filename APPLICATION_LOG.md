@@ -2,6 +2,47 @@
 
 Dated record of all job applications. Updated after each session (Principle 21).
 
+## Max Planck Institute for Multidisciplinary Sciences — Scientific IT Specialist / Research Software Engineer
+
+| | |
+|---|---|
+| **Date** | 21 April 2026 |
+| **Status** | **Submitted** |
+| **Job Code** | 15-26 |
+| **Position** | Scientific IT Specialist / Research Software Engineer (f/m/x) — 2-year limited, permanent possible |
+| **Location** | Göttingen |
+| **Facility** | Facility for Data Sciences and Biostatistics (Dr. Juliane Liepe) |
+| **Deadline** | 8 May 2026 |
+| **Submission email** | ausschreibung15-26@mpinat.mpg.de |
+| **Documents submitted** | `submission/Mahajan_Thejus_MPINAT_15-26.pdf` (single PDF, 16 pages: cover letter + CV + Praktikumsbestätigung + Zeugnisse) |
+| **Folder** | `applications/mpinat_scientific_it_specialist/` |
+| **Notes** | English application. CV re-weighted for RSE/HPC profile: Bioinformatics & Reproducible Research promoted to top of Key Strengths. Cover letter perfectly mirrors authentic narrative voice with specific dual-career couple framing. |
+| **Submission artifacts** | Sent via email to ausschreibung15-26@mpinat.mpg.de on 21 April 2026 securely accompanied by a short introductory email. |
+| **Next step** | Monitor email for recruiter/committee response. |
+
+---
+
+## Roche Diagnostics GmbH — Biostatistician / Data Scientist (Penzberg)
+
+| | |
+|---|---|
+| **Date** | 20 April 2026 |
+| **Status** | **Submitted** |
+| **Job ID** | 202602-104338 |
+| **Position** | Biostatistician / Data Scientist (m/f/d) — 2-year limited |
+| **Location** | Penzberg, Bavaria |
+| **Portal** | Roche Careers (Phenom People ATS) |
+| **Documents submitted** | `Mahajan_Thejus_Lebenslauf.pdf`, `Mahajan_Thejus_Praktikumsbestaetigung_HealthTwiSt.pdf`, `Mahajan_Thejus_Zeugnisse.pdf` |
+| **Folder** | `applications/roche_biostatistician_penzberg/` |
+| **Salary expectation stated** | €75,000 gross/year |
+| **Notice period stated** | None — immediately available |
+| **Work authorization stated** | Yes (jobseeker residence permit → EU Blue Card conversion on offer) |
+| **Submission artifacts** | Portal showed "internal error" on final click, but (a) Roche confirmation email received and (b) a fresh application attempt is blocked with "you have already applied" — both confirm successful submission. |
+| **Known portal quirk** | "My Applications" view shows empty — Phenom People caching, expected to populate within 24–48h. |
+| **Next step** | Monitor email for recruiter response. No further action required until then. |
+
+---
+
 ## Bundesagentur für Arbeit — Video Termin (Career Counseling)
 
 | | |
@@ -126,4 +167,6 @@ Dated record of all job applications. Updated after each session (Principle 21).
 ## Leads & Search Terms
 
 - dsm-firmenich: [Job link 1](https://jobs.dsm.com/job/Bioinformatician-%28mwd%29/1261117301/), [Job link 2](https://jobs.dsm-firmenich.com/careers/job/562949975281480)
+- UKE (Datenmanager:in - Herz- und Gefäßzentrum): [Job link](https://www.uke.jobs/index.php?ac=jobad&id=6299)
+- UKE (Wissenschaftliche:r Angestellte:r - Single Cell Seq Facility): [Job link](http://uke.jobs/index.php?ac=jobad&id=6303)
 - Search terms: "Bioinformatician as Statistical Data Scientist"

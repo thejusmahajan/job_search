@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  18 APR 2026 19:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.22)  21 APR 2026 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -726,6 +726,12 @@ Overfull \hbox (15.92014pt too wide) in paragraph at lines 42--43
 ns-R-Pipeline
  []
 
+
+Overfull \hbox (3.47493pt too wide) in paragraph at lines 44--45
+\T1/qhv/m/n/9 yse, Re-search Soft-ware En-gi-neer-ing; of-fen für Umzug in-ner-
+halb Deutsch-
+ []
+
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 3.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -744,9 +750,9 @@ identischer Aus-gabe, ver-i-fiziert via \T1/cmtt/m/n/9 identical()\T1/qhv/m/n/9
  []
 
 
-Overfull \hbox (10.21846pt too wide) in paragraph at lines 63--63
-[]\T1/qhv/m/n/9 Externalisierung von 257 hard-codierten Ko-r-rek-tur-regeln in 
-8 Konfigurations-
+Overfull \hbox (34.85138pt too wide) in paragraph at lines 63--63
+\T1/qhv/m/n/9 Konfigurations-CSV-Dateien; er-möglicht Bear-beitung durch Nicht-
+Programmierer. 
  []
 
 
@@ -930,7 +936,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1
 b></usr/share/texmf/fonts/type1/public/tex-gyre/qhvri.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sftt0900.pfb>
-Output written on cv_clinical_data_science_de.pdf (2 pages, 283340 bytes).
+Output written on cv_clinical_data_science_de.pdf (2 pages, 283335 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream

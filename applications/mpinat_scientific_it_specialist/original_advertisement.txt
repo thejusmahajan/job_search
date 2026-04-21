@@ -1,0 +1,102 @@
+Source URL: https://www.mpinat.mpg.de/5239120/15-26?c=627145
+Retrieved: 2026-04-21
+Application language: English
+Application deadline: 8 May 2026
+
+========================================================================
+Scientific IT Specialist / Research Software Engineer (f/m/x)
+Job Code: 15-26
+
+Job Offer from April 01, 2026
+========================================================================
+
+At the Max Planck Institute for Multidisciplinary Sciences, we bridge the
+gap between basic research and translational, preclinical approaches.
+Here, researchers from the fields of biology, chemistry, physics, and
+medicine collaborate across disciplines, supported by high-performance
+service facilities and a modern research infrastructure. As the largest
+institute of the Max Planck Society, with around 1,000 employees from
+more than 66 nations, we offer an inspiring, international working
+environment with exceptional scientific breadth.
+
+The Facility for Data Sciences and Biostatistics (Dr. Juliane Liepe)
+invites applications for a
+
+    Scientific IT Specialist / Research Software Engineer (f/m/x)
+
+------------------------------------------------------------------------
+Key tasks
+------------------------------------------------------------------------
+- Maintain IT systems and research computing environments.
+- Support and optimise data analysis workflows and pipelines.
+- Install/configure scientific software.
+- Assist researchers with code, HPC usage, and reproducible practices.
+- Provide on-site training and contribute to best practices in research
+  software.
+
+------------------------------------------------------------------------
+Requirements
+------------------------------------------------------------------------
+- Degree (MSc/PhD) in CS, bioinformatics, data science, or a related
+  technical field, or equivalent professional experience.
+- Strong programming skills (Python/R/Bash) and Linux.
+- Experience with workflows, version control (Git), and scientific
+  computing.
+- Problem-solving mindset and good communication skills.
+- Fluent in English.
+
+------------------------------------------------------------------------
+Desired Skills
+------------------------------------------------------------------------
+HPC, containers (Docker/Singularity), workflow tools
+(Snakemake/Nextflow), cloud, CI/CD, database systems and data storage
+solutions.
+
+------------------------------------------------------------------------
+What we offer
+------------------------------------------------------------------------
+- Work with leading scientists.
+- Work at the forefront of data-driven life science research.
+- Real impact: your work directly supports scientific discoveries.
+- Modern tools, HPC resources, and evolving infrastructure.
+- A supportive, low-hierarchy, research-driven culture.
+- Opportunities to grow technically and professionally.
+- Competitive compensation and long-term career prospects.
+
+------------------------------------------------------------------------
+Position details
+------------------------------------------------------------------------
+The position is initially limited to two years, although permanent
+employment thereafter is not ruled out. Remuneration is based on the
+TVoeD Bund (German federal civil service pay scale), depending on
+qualifications and professional experience. In addition, public sector
+social benefits apply.
+
+We are committed to being a cosmopolitan institute that offers a diverse
+and inclusive working environment with equal opportunities. We also aim
+to increase the number of employees with disabilities. We welcome
+applications from all backgrounds.
+
+------------------------------------------------------------------------
+Application
+------------------------------------------------------------------------
+Please submit your application with a cover letter (explaining
+background and motivation), a CV (with a publication list) and
+qualification transcripts (translated in English or German, if
+applicable) until 8th May 2026 preferably via e-mail and as a single
+PDF file to:
+
+    ausschreibung15-26@mpinat.mpg.de
+
+Max Planck Institute for Multidisciplinary Sciences
+Facility for Data Sciences and Biostatistics
+Frau Dr. Juliane Liepe
+Am Fassberg 11
+37077 Goettingen
+Germany
+
+Contact:
+Juliane Liepe
+Group Leader / Head of Facility
++49 551 201-1471
+juliane.liepe@mpinat.mpg.de
