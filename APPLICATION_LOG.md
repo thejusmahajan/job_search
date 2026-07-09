@@ -2,6 +2,22 @@
 
 Dated record of all job applications. Updated after each session (Principle 21).
 
+## Forschungszentrum Jülich (IBG-4) — Software Developer / Scientist (RDM for FAIRagro)
+
+| | |
+|---|---|
+| **Date** | 9 July 2026 |
+| **Status** | **Draft prepared** |
+| **Position** | Software Developer / Scientist – Research Data Management for FAIRagro (TVöD-Bund E10-11 or E13, 1.5 years) |
+| **Location** | Jülich |
+| **Institute** | Department of Bioinformatics (IBG-4), Institute of Bio- and Geosciences, Prof. Dr. Björn Usadel |
+| **Project** | FAIRagro (NFDI consortium for FAIR agricultural research data, DFG-funded) |
+| **Deadline** | Open until filled |
+| **Submission** | TBD — online portal or email |
+| **Documents** | `Mahajan_Thejus_FAIRagro_FZJ.pdf` (assembled 19 pages: cover letter, CV, CQ certificate, Praktikumsbestätigung, degree certificates, Goethe B1) |
+| **Folder** | `applications/fzj_fairagro_rdm/` |
+| **Notes** | English application. CV re-weighted for RDM/FAIR profile: Key Strengths lead with "Research Data Management & FAIR Principles." Cover letter hooks with R Shiny dashboard and config-driven metadata architecture as analogues to FAIRagro search/inventory services. Mentions JSC training. Agricultural domain gap addressed via transferability from marine ecosystem modelling. |
+
 ## Max Planck Institute for Multidisciplinary Sciences — Scientific IT Specialist / Research Software Engineer
 
 | | |
