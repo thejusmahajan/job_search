@@ -1,0 +1,101 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[top=1.8cm,bottom=1.4cm,left=2.3cm,right=2.3cm]{geometry}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\begin{document}
+\pagestyle{empty}
+
+% Sender Information
+\begin{flushleft}
+Dr. Thejus Mahajan\\
+Reventlowstra{\ss}e 17\\
+22605 Hamburg\\
++49-15259697629\\
+thejus.mahajan@uni-hamburg.de
+\end{flushleft}
+
+\vspace{0.15cm}
+
+% Date
+\begin{flushright}
+Hamburg, [PLATZHALTER --- Datum der Absendung]
+\end{flushright}
+
+\vspace{0.15cm}
+
+% Recipient --- LEAVE AS PLACEHOLDER
+\begin{flushleft}
+{[PLATZHALTER --- Firma]}\\
+{[PLATZHALTER --- Ansprechpartner]}\\
+{[PLATZHALTER --- Stra{\ss}e]}\\
+{[PLATZHALTER --- PLZ, Ort]}
+\end{flushleft}
+
+\vspace{0.15cm}
+
+% Subject
+\textbf{Application as [PLATZHALTER --- Stellenbezeichnung] --- Reference [PLATZHALTER --- Kennziffer]}
+
+\vspace{0.3em}
+Dear [PLATZHALTER --- Ansprechpartner],
+
+\vspace{0.2cm}
+
+It is with genuine excitement that I am writing to apply for the position of
+[PLATZHALTER --- Stellenbezeichnung] at [PLATZHALTER --- Firma]. I have spent
+ten years building computational models and asking whether their outputs can be
+trusted --- in physics, in ocean ecosystems, and most recently in clinical data.
+For the past months I have applied that same discipline to neural networks, and
+it is the work I want to do next.
+
+After a Ph.D. in astrochemistry at Universit\'e Paris-Saclay, where I analysed
+terabytes of particle-accelerator data, I worked as a post-doctoral scientist at
+Universit\"at Hamburg on marine ecosystem modelling. There I translated a legacy
+Fortran engine into a high-performance Python one using Google JAX with TPU/GPU
+parallelisation --- my first serious encounter with the tensor operations that
+underpin modern deep learning frameworks.
+
+Since then I have been conducting independent research in neural network
+interpretability. I built a toolchain that opens up a 15-layer transformer
+(Leela Chess Zero) and reads out what it computes internally: the model is
+converted from ONNX to PyTorch, and forward hooks on every encoder layer capture
+its attention during inference. What I value most is not the tooling but what it
+taught me: I found two systematic errors in my own pipeline that produced
+entirely plausible results --- neither raised an exception, neither failed a
+test, and one had already reached a published write-up before I caught it. I
+corrected it publicly:
+\href{https://thejusmahajan.github.io/blog-lc0-attention-frame.html}{thejusmahajan.github.io/blog-lc0-attention-frame.html}.
+
+That habit is what I would bring beyond the tools themselves: a model returning
+confident, well-shaped, wrong answers is the failure mode that costs most and
+announces itself least. My work at HealthTwiSt on a national medical registry
+pipeline (143,000 patient records, some 300 clinics) rested on the same
+discipline --- every refactoring step verified byte-identical before acceptance.
+
+[PLATZHALTER --- ein bis zwei S\"atze zur konkreten Stelle: warum diese Firma,
+welches Projekt, welche Technologie aus der Anzeige.]
+
+I hold work authorisation for Germany and am available immediately. My German is
+B1 (Goethe-Zertifikat), B2 in preparation, and I work daily in English. In
+September I begin the certified course ``Deployable Data Analysis \& AI
+Pipelines with HPC'' at the Supercomputing-Akademie of the HLRS, Universit\"at
+Stuttgart, building on my earlier training at the J\"ulich Supercomputing
+Centre. I would be glad to discuss how my background could serve your team, and
+happy to go into the interpretability work in whatever detail is useful.
+
+\vspace{0.1cm}
+
+Sincerely,
+
+\vspace{-0.1cm}
+
+\includegraphics[height=1.1cm]{thejus signature.jpg}
+
+Dr. Thejus Mahajan
+
+\end{document}
