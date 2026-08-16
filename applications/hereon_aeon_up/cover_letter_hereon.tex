@@ -1,0 +1,102 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[top=1.6cm,bottom=1.1cm,left=2.3cm,right=2.3cm]{geometry}
+\usepackage{parskip}
+\setlength{\parskip}{0.45em}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\begin{document}
+\pagestyle{empty}
+
+% Sender Information
+\begin{flushleft}
+Dr. Thejus Mahajan\\
+Reventlowstra{\ss}e 17\\
+22605 Hamburg\\
++49-15259697629\\
+thejus.mahajan@uni-hamburg.de
+\end{flushleft}
+
+\vspace{0.15cm}
+
+\begin{flushright}
+Hamburg, [PLATZHALTER --- Datum der Absendung]
+\end{flushright}
+
+\vspace{0.15cm}
+
+\begin{flushleft}
+Helmholtz-Zentrum Hereon GmbH\\
+Institut f\"ur Umweltchemie des K\"ustenraumes\\
+Max-Planck-Stra{\ss}e 1\\
+21502 Geesthacht
+\end{flushleft}
+
+\vspace{0.15cm}
+
+\textbf{Application as Postdoctoral Researcher --- Probabilistic Deep Learning
+for Urban Air Quality (AEON-UP) --- Reference Code 1056}
+
+\vspace{0.3em}
+Dear [PLATZHALTER --- Ansprechpartner],
+
+
+I am writing to apply for the postdoctoral position on probabilistic deep
+learning for urban air quality. What draws me to AEON-UP is the clause most
+advertisements leave out: the predictions are to come \emph{with uncertainty
+estimates}. That question is not an abstract interest for me.
+
+Since finishing my post-doc I have conducted independent research in neural
+network interpretability, extracting the internal representations of a 15-layer
+transformer in PyTorch. In the course of it I found two systematic errors in my
+own pipeline. Both produced entirely plausible output --- smooth, well-shaped
+results that raised no exception and failed no test. One had already reached a
+published write-up before I caught it, and I corrected it publicly:
+\href{https://thejusmahajan.github.io/blog-lc0-attention-frame.html}{thejusmahajan.github.io/blog-lc0-attention-frame.html}.
+
+The lesson is the one AEON-UP is built around. A confidently wrong model is more
+dangerous than a visibly uncertain one, and where the output may inform decisions
+about what people breathe, a calibrated statement of what the model does
+\emph{not} know is not a refinement --- it is the product. Sparse, irregular
+monitoring networks are exactly the setting where a model must interpolate and
+declare how far to trust the interpolation.
+
+I would come to this from the physical side as much as the learned one. During
+my post-doc at Universit\"at Hamburg I developed a plankton life
+cycle model within the ERGOM framework and ran hindcast and projection
+simulations for warming scenarios, working daily with gridded spatio-temporal
+output in NetCDF on Linux HPC systems. I therefore know what a physics-based
+transport model is, what its output looks like at scale, and where its biases
+tend to live --- which matters when the task is to couple such a model with a
+learned one rather than replace it. I followed your group's chemistry transport
+modelling with CMAQ over the North Sea and European domains with real interest,
+and contributing on the learned side of that coupling is exactly what I want.
+
+I should be straightforward: my experience with Bayesian deep learning and
+neural processes is at the level of reading and implementation rather than
+published work. I am building it deliberately --- in September I begin the
+certified course ``Deployable Data Analysis \& AI Pipelines with HPC'' at the
+Supercomputing-Akademie of the HLRS, following earlier HPC training at the
+J\"ulich Supercomputing Centre. What I bring meanwhile is ten years of building
+computational models and interrogating whether their output can be trusted ---
+and a demonstrated willingness to find that the answer is no.
+
+Hereon is not unfamiliar to me: I worked at the centre as a guest scientist in
+2025 on ecosystem modelling, and would be glad to return. I hold work
+authorisation for Germany, live in Hamburg, and am available for the October
+start. I would welcome the chance to discuss the project.
+
+\vspace{0.1cm}
+
+Sincerely,
+
+\vspace{-0.1cm}
+
+\includegraphics[height=0.85cm]{thejus signature.jpg}
+
+Dr. Thejus Mahajan
+
+\end{document}
