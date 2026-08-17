@@ -49,13 +49,13 @@ learning for urban air quality. What draws me to AEON-UP is the clause most
 advertisements leave out: the predictions are to come \emph{with uncertainty
 estimates}. That question is not an abstract interest for me.
 
-Since finishing my post-doc I have conducted independent research in neural
-network interpretability, extracting the internal representations of a 15-layer
-transformer in PyTorch. In the course of it I found two systematic errors in my
-own pipeline. Both produced entirely plausible output --- smooth, well-shaped
-results that raised no exception and failed no test. One had already reached a
-published write-up before I caught it, and I corrected it publicly:
-\href{https://thejusmahajan.github.io/blog-lc0-attention-frame.html}{thejusmahajan.github.io/blog-lc0-attention-frame.html}.
+Since finishing my post-doc I have built and debugged a deep learning pipeline
+in PyTorch: converting a 15-layer transformer from ONNX, extracting its internal
+representations, and running batched inference on GPU. In the course of it I
+found two systematic errors in my own pipeline. Both produced entirely plausible
+output --- smooth, well-shaped results that raised no exception and failed no
+test. One had already reached a published write-up before I caught it, and I
+corrected it publicly:
 
 The lesson is the one AEON-UP is built around. A confidently wrong model is more
 dangerous than a visibly uncertain one, and where the output may inform decisions
